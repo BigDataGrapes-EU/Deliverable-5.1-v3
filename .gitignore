@@ -1,0 +1,49 @@
+node_modules/
+
+
+# Created by https://www.gitignore.io/api/osx,meteor
+# Edit at https://www.gitignore.io/?templates=osx,meteor
+
+### Meteor ###
+# gitignore template for the Meteor framework
+# website: https://www.meteor.com/
+#
+# Recommended template: Node.gitignore
+
+# protect api keys in setting json
+settings-production.json
+settings.json
+
+# protect your mup.json settings
+mup.json
+mup.js
+
+### OSX ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.gitignore.io/api/osx,meteor
