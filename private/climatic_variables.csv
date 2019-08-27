@@ -1,0 +1,55 @@
+variable,unit,description
+RAN,degree Celsius,Temperature range Range 
+MWD,degree,maximal wind direction 
+WD, hours and tenths,Daily wetness duration 
+ID,hours and tenths,Insolation duration 
+CID,hours and tenths, calculated insolation duration 
+ET,millimeters,evaporation tray  
+PE,millimeters,Piche evapotranspiration 
+ETP,millimeters, Measured evapotranspiration 
+PETP,millimeters,Penman evapotranspiration 
+CPETP,millimeters,Corrected Piche evapotranspiration 
+FRAC,percentage,Insolation fraction  
+XWH,millimeters,maximal water height 
+NWH,millimeters,minimal water height 
+MWH,millimeters,mean water height 
+PH,millimeters,Precipitation height 
+XH,percentage,Maximal humidity 
+NH,percentage,Minimal humidity 
+MH,,Mean humidity
+I1N,degree Celsius,Actinothermal index +10cm 
+I1X,degree Celsius,Actinothermal index +10cm (Maximum) 
+I5N,degree Celsius,Actinothermal index +50cm 
+I5X,degree Celsius,Actinothermal index +50cm (Maximum) 
+XTI,hours and tenths,Maximal temperature instant 
+NTI,hours and tenths,Minimal temperature instant 
+XHI,hours and tenths,Maximal humidity instant 
+NHI,hours and tenths,Minimal humidity instant 
+XWI,hours and tenths,Maximal wind instant 
+XPII,hours and tenths,Maximal precipitation intensity instant 
+XPI,millimeters,Maximal precipitation intensity 
+GR,joules/cm2,Global radiation 
+CGR,joules/cm2,Calculated global radiation 
+PAR,joules/cm2,Photosynthetic active radiation 
+XT,degree Celsius,Maximal temperature 
+X1S,degree Celsius,Soil maximal temperature at -10cm 
+NT,degree Celsius,Minimal temperature 
+N1S,degree Celsius,Soil minimal temperature at -10cm 
+MT,degree Celsius,Mean temperature 
+CMT,degree Celsius,Calculated mean temperature 
+S5M,degree Celsius,Mean soil temperature at -50cm 
+DT,degree Celsius,Dew point temperature  
+H4,hours and tenths,period with  humidity <40% 
+H8,hours and tenths,period with  humidity >80% 
+H9,hours and tenths,period with  humidity >90% 
+MVP,millibars,Mean vapor pressure 
+TEW, kilometers,total wind East direction 
+TNW, kilometers,total wind Nord direction 
+TNEW, kilometers,total wind nord-east direction 
+TNWW, kilometers,total wind nord-West direction 
+TWW, kilometers,total wind West direction 
+TSW, kilometers,total wind sud direction 
+TSEW, kilometers,total wind sud-east direction 
+TSWW, kilometers,total wind sud-West direction 
+SP,meters per second,Maximal wind speed 
+S,meters per second,Mean wind spead 
