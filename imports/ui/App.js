@@ -44,6 +44,10 @@ class App extends Component {
       maintainAspectRatio: false
     }}
     />
+    Wind:
+    Temperature:
+    Humidity:
+    Soil:
     </div>);
   } // end of render
 } // end of class
