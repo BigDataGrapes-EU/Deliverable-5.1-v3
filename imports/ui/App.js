@@ -8,6 +8,7 @@ import Piechart    from '/imports/ui/piechart/piechart.js'
 import Timeseries  from '/imports/ui/timeseries/timeseries.js'
 
 import _ from 'lodash'
+const Fragment = React.Fragment;
 /* Import React Components */
 import { Climate } from '/imports/api/tasks.js';
 
@@ -134,6 +135,7 @@ class App extends Component {
       ]
     };
     return(
+      <Fragment>
       <h1>Big Data Grapes Dashboard</h1>
       <div className="main-container">
         <Barchart    title="Wind"        data={BarData}     />
@@ -141,7 +143,9 @@ class App extends Component {
         <Scatterplot title="Humidity"    data={ScatterData} />
         <Piechart    title="Soil"        data={PieData}     />
         <Timeseries  title="Something"   data={TimeData}    />
-      </div>);
+      </div>
+    </Fragment>
+    );
     } // end of render
   } // end of class
 
