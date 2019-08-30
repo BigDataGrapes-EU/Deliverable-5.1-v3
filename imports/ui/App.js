@@ -147,7 +147,7 @@ class App extends Component {
   export default withTracker((props) => {
     return {
       Wind:        Climate.find({}).fetch(),
-      MeanTemperature: _.map(Climate.find({}).fetch(), "S"),
+      MeanTemperature: _.map(Climate.find({YEAR: 2018}).fetch(), "S"),
       Humidity:    Climate.find({}).fetch(),
       Soil:        Climate.find({}).fetch(),
     };
