@@ -3,7 +3,7 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check, Match} from 'meteor/check';
 
-const Climate = new Mongo.Collection("climate");
+export const Climate = new Mongo.Collection("climate");
 
 Meteor.methods({
   // 'load.data'(vac){
