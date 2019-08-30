@@ -11,13 +11,9 @@ class Barchart extends React.Component {
   }
 
   render() {
-    const data = {
-      labels: [],
-      datasets: []
-    };
     return(
       <div className="container">
-        <Bar data={data} width={100} height={50} options={{ maintainAspectRatio: false }} />
+        <Bar data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: false }} />
       </div>
     );
 
