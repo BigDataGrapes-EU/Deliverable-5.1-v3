@@ -134,6 +134,7 @@ class App extends Component {
       ]
     };
     return(
+      <h1>Big Data Grapes Dashboard</h1>
       <div className="main-container">
         <Barchart    title="Wind"        data={BarData}     />
         <Radarchart  title="Temperature" data={RadarData}   />
