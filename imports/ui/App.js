@@ -28,7 +28,7 @@ class App extends Component {
     // });
 
     const BarData = {
-      labels: (this.props.WindSpeed).month,
+      labels: Object.keys(this.props.DataPointsPerYear),
       // labels: ["1900", "1950", "1999", "2050"],
       datasets: [
       //     {
@@ -44,13 +44,13 @@ class App extends Component {
       //   data: [133,221,783,2478]
       // }
           {
-        label: 'Wind speed (m/s)',
+        label: 'Data points collected per year',
         backgroundColor: 'rgba(255,99,132,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: (this.props.WindSpeed).meanSpeed
+        data: Object.values(this.props.DataPointsPerYear)
       }
       ]
     };
@@ -262,9 +262,6 @@ class App extends Component {
       year:_.map(climateData, "YEAR")
     }
 
-// console.log(_.countBy(Climate.find({}).fetch(), "YEAR"))
-//     console.log(Math.max(...maxTemp.maxTemperature));
-
     return {
       WindSpeed: windSpeed,
       EvaAndTemp: evaAndTemp,
@@ -272,8 +269,8 @@ class App extends Component {
       VisualSensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "visual"}).fetch(), "sensoryFlavor"),
       OlfactorySensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "olfactory"}).fetch(), "sensoryFlavor"),
       TasteSensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "taste"}).fetch(), "sensoryFlavor"),
-      MaxTempPerYear: maxTemp
-
+      // MaxTempPerYear: maxTemp
+      DataPointsPerYear: _.countBy(Climate.find({}).fetch(), "YEAR")
       // Humidity: periodWithHumidity,
       // Soil:        Climate.find({}).fetch(),
     };
