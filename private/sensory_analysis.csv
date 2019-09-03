@@ -1,0 +1,2667 @@
+soilType,plotCluster ,wine,flavorType,sensoryFlavor,judgeNumber,ratioFlavorJudge
+siltyClay,COURSAN,2017_ALF_ALT_1,visual,veryLightYellowWithGreenSparkles,6,0.17
+siltyClay,COURSAN,2017_ALF_ALT_2,visual,veryLightYellowWithGreenSparkles,6,1.00
+siltyClay,COURSAN,2017_ALF_ALT_3,visual,veryLightYellowWithGreenSparkles,6,0.17
+siltyClay,COURSAN,2017_ALF_ALT_4,visual,veryLightYellowWithGreenSparkles,6,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,visual,strawYellowGoldYellow,6,0.67
+siltyClay,COURSAN,2017_ALF_ALT_2,visual,strawYellowGoldYellow,6,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,visual,strawYellowGoldYellow,6,0.17
+siltyClay,COURSAN,2017_ALF_ALT_4,visual,strawYellowGoldYellow,6,0.50
+siltyClay,COURSAN,2017_ALF_ALT_1,visual,turbid,5,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,visual,turbid,5,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,visual,turbid,5,1.00
+siltyClay,COURSAN,2017_ALF_ALT_4,visual,turbid,5,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,candy,6,1.00
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,candy,6,0.17
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,candy,6,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,candy,6,0.33
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,fruity,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,fruity,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,fruity,5,0.60
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,fruity,5,0.20
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,fermentationAroma,3,0.33
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,fermentationAroma,3,0.67
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,fermentationAroma,3,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,fermentationAroma,3,0.33
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,flowery,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,flowery,2,1.00
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,flowery,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,flowery,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,mineral,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,mineral,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,mineral,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,mineral,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,milky,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,milky,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,milky,1,1.00
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,milky,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,pear,1,1.00
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,pear,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,pear,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,pear,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,paper,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,paper,1,1.00
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,paper,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,paper,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,olfactory,pale,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,olfactory,pale,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,olfactory,pale,1,1.00
+siltyClay,COURSAN,2017_ALF_ALT_4,olfactory,pale,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,bitterness,7,0.43
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,bitterness,7,0.14
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,bitterness,7,0.71
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,bitterness,7,0.57
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,sweetness,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,sweetness,5,0.80
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,sweetness,5,0.20
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,sweetness,5,0.20
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,fat,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,fat,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,fat,5,0.40
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,fat,5,1.00
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,balanced,4,0.75
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,balanced,4,0.50
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,balanced,4,0.25
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,balanced,4,0.50
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,acid,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,acid,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,acid,2,1.00
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,acid,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,astringent,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,astringent,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,astringent,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,astringent,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,persistent,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,persistent,2,1.00
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,persistent,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,persistent,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,aromatic,2,1.00
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,aromatic,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,aromatic,2,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,aromatic,2,0.50
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,reduced,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,reduced,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,reduced,1,1.00
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,reduced,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_1,taste,dilute,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_2,taste,dilute,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_3,taste,dilute,1,NaN
+siltyClay,COURSAN,2017_ALF_ALT_4,taste,dilute,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,visual,alsmostColourless,6,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,visual,alsmostColourless,6,0.17
+siltyClay,100,2017_RESDUR_B,visual,alsmostColourless,6,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,visual,veryLightYellowWithGreenSparkles,6,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,visual,veryLightYellowWithGreenSparkles,6,0.83
+sandySiltyClay,85,2017_RESDUR_B,visual,veryLightYellowWithGreenSparkles,6,0.17
+sandySiltyClay,85,2017_RUN_ST2_13_B,visual,strawYellowGoldYellow,5,0.20
+siltyClay,100,2017_RUN-ST2_20_B,visual,strawYellowGoldYellow,5,NaN
+sandySiltyClay,85,2017_RESDUR_B,visual,strawYellowGoldYellow,5,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,anise,4,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,anise,4,1.00
+sandySiltyClay,85,2017_RESDUR_B,olfactory,anise,4,NaN
+siltyClay,100,2017_RUN_ST2_13_B,olfactory,fruity,2,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,fruity,2,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,fruity,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,oxidised,2,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,oxidised,2,NaN
+siltyClay,100,2017_RESDUR_B,olfactory,oxidised,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,flowery,1,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,flowery,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,flowery,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,mineral,1,1.00
+siltyClay,100,2017_RUN-ST2_20_B,olfactory,mineral,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,mineral,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,fermentationAroma,1,1.00
+siltyClay,100,2017_RUN_ST2_13_B,olfactory,milky,1,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,milky,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,milky,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,candy,1,NaN
+siltyClay,100,2017_RESDUR_B,olfactory,candy,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,citrusFruit,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,citrusFruit,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,citrusFruit,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,reduced,5,0.20
+siltyClay,100,2017_RUN-ST2_20_B,olfactory,reduced,5,1.00
+sandySiltyClay,85,2017_RESDUR_B,olfactory,reduced,5,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,cooked (oxidised +),4,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,cooked (oxidised +),4,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,cooked (oxidised +),4,0.25
+siltyClay,100,2017_RUN_ST2_13_B,olfactory,chimic,3,0.33
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,chimic,3,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,chimic,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,ascent,1,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,ascent,1,NaN
+siltyClay,100,2017_RESDUR_B,olfactory,ascent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,animal,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,rubber,1,NaN
+siltyClay,100,2017_RUN-ST2_20_B,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,rubber,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,mouldy,1,1.00
+sandySiltyClay,85,2017_RESDUR_B,olfactory,mouldy,1,1.00
+siltyClay,100,2017_RUN_ST2_13_B,olfactory,petroleum,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,petroleum,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,olfactory,petroleum,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,olfactory,serpillierre,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,olfactory,serpillierre,1,NaN
+siltyClay,100,2017_RESDUR_B,olfactory,serpillierre,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,balanced,5,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,balanced,5,NaN
+sandySiltyClay,85,2017_RESDUR_B,taste,balanced,5,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,acid,3,0.33
+siltyClay,100,2017_RUN-ST2_20_B,taste,acid,3,1.00
+sandySiltyClay,85,2017_RESDUR_B,taste,acid,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,bitterness,3,0.67
+sandySiltyClay,85,2017_RESDUR_B,taste,bitterness,3,NaN
+siltyClay,100,2017_RUN_ST2_13_B,taste,sweetness,3,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,sweetness,3,0.33
+sandySiltyClay,85,2017_RESDUR_B,taste,sweetness,3,1.00
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,fat,3,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,fat,3,0.33
+siltyClay,100,2017_RESDUR_B,taste,fat,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,astringent,2,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,astringent,2,0.50
+sandySiltyClay,85,2017_RESDUR_B,taste,astringent,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,persistent,2,NaN
+siltyClay,100,2017_RUN-ST2_20_B,taste,persistent,2,0.50
+sandySiltyClay,85,2017_RESDUR_B,taste,persistent,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,reduced,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,reduced,1,1.00
+sandySiltyClay,85,2017_RESDUR_B,taste,reduced,1,NaN
+siltyClay,100,2017_RUN_ST2_13_B,taste,dilute,5,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,dilute,5,0.20
+sandySiltyClay,85,2017_RESDUR_B,taste,dilute,5,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,bitterness,2,1.00
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,bitterness,2,0.50
+siltyClay,100,2017_RESDUR_B,taste,bitterness,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,acid,1,1.00
+sandySiltyClay,85,2017_RESDUR_B,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,astringent,1,1.00
+siltyClay,100,2017_RUN-ST2_20_B,taste,astringent,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,taste,astringent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_13_B,taste,petroleum,1,NaN
+sandySiltyClay,85,2017_RUN-ST2_20_B,taste,petroleum,1,NaN
+sandySiltyClay,85,2017_RESDUR_B,taste,petroleum,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,visual,pureRed (cherry),5,0.60
+siltyClay,106,2017_VITIDUR_3160_R,visual,pureRed (cherry),5,0.40
+siltyClay,106,2017_VITIDUR_3160_T,visual,pureRed (cherry),5,0.40
+siltyClay,106,2017_QUALIVINBIO_3160,visual,purplish,4,0.50
+siltyClay,106,2017_VITIDUR_3160_R,visual,purplish,4,NaN
+siltyClay,106,2017_VITIDUR_3160_T,visual,purplish,4,0.75
+siltyClay,106,2017_QUALIVINBIO_3160,visual,dark,4,0.25
+siltyClay,106,2017_VITIDUR_3160_R,visual,dark,4,NaN
+siltyClay,106,2017_VITIDUR_3160_T,visual,dark,4,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,visual,clear,3,NaN
+siltyClay,106,2017_VITIDUR_3160_R,visual,clear,3,1.00
+siltyClay,106,2017_VITIDUR_3160_T,visual,clear,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,visual,turbid,3,NaN
+siltyClay,106,2017_VITIDUR_3160_R,visual,turbid,3,1.00
+siltyClay,106,2017_VITIDUR_3160_T,visual,turbid,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,vegetal,5,0.80
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,vegetal,5,0.40
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,vegetal,5,0.20
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,cookedFruits,5,0.20
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,cookedFruits,5,0.80
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,cookedFruits,5,0.40
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,spicy,4,1.00
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,spicy,4,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,spicy,4,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,amylic,3,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,amylic,3,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,amylic,3,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,pepper,3,0.67
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,pepper,3,0.33
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,pepper,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,fruity,2,0.50
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,fruity,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,fruity,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,empyreumatic,2,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,empyreumatic,2,0.50
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,empyreumatic,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,milky,2,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,milky,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,milky,2,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,candy,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,candy,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,candy,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,veryMatureApple,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,veryMatureApple,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,veryMatureApple,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,coffee,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,coffee,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,coffee,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,acetone,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,acetone,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,acetone,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,ventilated (oxidised),3,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,ventilated (oxidised),3,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,ventilated (oxidised),3,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,reduced,2,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,reduced,2,1.00
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,reduced,2,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,ascent,2,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,ascent,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,ascent,2,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,paper,2,1.00
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,paper,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,paper,2,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,animal,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,animal,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,animal,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,olfactory,mop,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,olfactory,mop,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,olfactory,mop,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,bitterness,5,0.20
+siltyClay,106,2017_VITIDUR_3160_R,taste,bitterness,5,0.20
+siltyClay,106,2017_VITIDUR_3160_T,taste,bitterness,5,0.60
+siltyClay,106,2017_QUALIVINBIO_3160,taste,astringent,5,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,astringent,5,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,astringent,5,0.60
+siltyClay,106,2017_QUALIVINBIO_3160,taste,balanced,4,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,balanced,4,1.00
+siltyClay,106,2017_VITIDUR_3160_T,taste,balanced,4,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,acid,3,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,acid,3,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,acid,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,sweetness,3,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,sweetness,3,1.00
+siltyClay,106,2017_VITIDUR_3160_T,taste,sweetness,3,0.33
+siltyClay,106,2017_QUALIVINBIO_3160,taste,persistent,2,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,persistent,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,persistent,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3160,taste,fat,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,fat,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,taste,fat,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,aromatic,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,aromatic,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,taste,aromatic,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,metallic,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,metallic,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,metallic,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,green,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,green,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,green,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,alcohol,2,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,alcohol,2,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,alcohol,2,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,taste,dilute,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,dilute,1,1.00
+siltyClay,106,2017_VITIDUR_3160_T,taste,dilute,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,acid,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,acid,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,acid,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3160,taste,bitterness,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,bitterness,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,bitterness,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,taste,astringent,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,astringent,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,astringent,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,taste,oxidised,1,NaN
+siltyClay,106,2017_VITIDUR_3160_R,taste,oxidised,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,oxidised,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3160,taste,reduced,1,1.00
+siltyClay,106,2017_VITIDUR_3160_R,taste,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3160_T,taste,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,visual,dark,5,NaN
+siltyClay,106,2017_VITIDUR_3176_T,visual,dark,5,0.80
+siltyClay,106,2017_VITIDUR_3176_TM,visual,dark,5,0.40
+siltyClay,106,2017_VITIDUR_3176_MC,visual,dark,5,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,visual,dark,5,0.80
+siltyClay,106,2017_VITIDUR_3176_R,visual,purplish,2,NaN
+siltyClay,106,2017_VITIDUR_3176_T,visual,purplish,2,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,visual,purplish,2,0.50
+siltyClay,106,2017_VITIDUR_3176_MC,visual,purplish,2,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,visual,purplish,2,0.50
+siltyClay,106,2017_VITIDUR_3176_R,visual,pureRed (cherry),2,1.00
+siltyClay,106,2017_VITIDUR_3176_T,visual,pureRed (cherry),2,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,visual,pureRed (cherry),2,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,visual,pureRed (cherry),2,0.50
+siltyClay,106,2017_QUALIVINBIO_3176,visual,pureRed (cherry),2,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,amylic,7,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,amylic,7,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,amylic,7,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,amylic,7,0.43
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,amylic,7,0.14
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,empyreumatic,5,0.40
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,empyreumatic,5,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,empyreumatic,5,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,empyreumatic,5,0.60
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,empyreumatic,5,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,vegetal,3,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,vegetal,3,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,vegetal,3,0.33
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,vegetal,3,0.33
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,vegetal,3,0.33
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,fruity,3,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,fruity,3,0.33
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,fruity,3,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,fruity,3,1.00
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,fruity,3,0.33
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,candy,2,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,candy,2,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,candy,2,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,candy,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,candy,2,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,animal,2,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,animal,2,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,animal,2,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,animal,2,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,animal,2,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,spicy,1,1.00
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,spicy,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,spicy,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,spicy,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,spicy,1,1.00
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,cookedFruits,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,cookedFruits,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,cookedFruits,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,cookedFruits,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,cookedFruits,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,fermentationAroma,1,1.00
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,fermentationAroma,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,fermentationAroma,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,fermentationAroma,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,fermentationAroma,1,1.00
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,coldMeat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,coldMeat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,coldMeat,1,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,coldMeat,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,coldMeat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,reduced,4,1.00
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,reduced,4,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,reduced,4,0.50
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,reduced,4,0.25
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,reduced,4,0.25
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,animal,3,0.33
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,animal,3,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,animal,3,0.67
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,animal,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,animal,3,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,rubber,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,rubber,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,rubber,1,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,rubber,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,rubber,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,paper,1,1.00
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,paper,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,paper,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,paper,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,paper,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,chimic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,chimic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,chimic,1,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,chimic,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,chimic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,sweat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,sweat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,sweat,1,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,sweat,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,sweat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,irritating,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,irritating,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,irritating,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,irritating,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,irritating,1,1.00
+siltyClay,106,2017_VITIDUR_3176_R,olfactory,leather,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,olfactory,leather,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,olfactory,leather,1,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,olfactory,leather,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,olfactory,leather,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,astringent,5,0.60
+siltyClay,106,2017_VITIDUR_3176_T,taste,astringent,5,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,astringent,5,0.60
+siltyClay,106,2017_VITIDUR_3176_MC,taste,astringent,5,0.20
+siltyClay,106,2017_QUALIVINBIO_3176,taste,astringent,5,0.80
+siltyClay,106,2017_VITIDUR_3176_R,taste,acid,3,0.67
+siltyClay,106,2017_VITIDUR_3176_T,taste,acid,3,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,acid,3,0.33
+siltyClay,106,2017_VITIDUR_3176_MC,taste,acid,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,acid,3,0.33
+siltyClay,106,2017_VITIDUR_3176_R,taste,sweetness,3,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,sweetness,3,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,sweetness,3,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,sweetness,3,0.33
+siltyClay,106,2017_QUALIVINBIO_3176,taste,sweetness,3,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,balanced,3,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,balanced,3,0.33
+siltyClay,106,2017_VITIDUR_3176_TM,taste,balanced,3,0.33
+siltyClay,106,2017_VITIDUR_3176_MC,taste,balanced,3,0.67
+siltyClay,106,2017_QUALIVINBIO_3176,taste,balanced,3,0.67
+siltyClay,106,2017_VITIDUR_3176_R,taste,bitterness,2,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,bitterness,2,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,bitterness,2,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,taste,bitterness,2,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,bitterness,2,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,persistent,2,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,persistent,2,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,persistent,2,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,persistent,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3176,taste,persistent,2,0.50
+siltyClay,106,2017_VITIDUR_3176_R,taste,fat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,fat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,fat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,fat,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3176,taste,fat,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,aromatic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,aromatic,1,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,aromatic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,aromatic,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,aromatic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,coffee,1,1.00
+siltyClay,106,2017_VITIDUR_3176_T,taste,coffee,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,coffee,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,coffee,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,coffee,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,tannic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,tannic,1,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,tannic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,tannic,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,tannic,1,NaN
+siltyClay,106,2017_VITIDUR_3176_R,taste,astringent,5,0.60
+siltyClay,106,2017_VITIDUR_3176_T,taste,astringent,5,0.80
+siltyClay,106,2017_VITIDUR_3176_TM,taste,astringent,5,0.60
+siltyClay,106,2017_VITIDUR_3176_MC,taste,astringent,5,0.80
+siltyClay,106,2017_QUALIVINBIO_3176,taste,astringent,5,0.60
+siltyClay,106,2017_VITIDUR_3176_R,taste,bitterness,2,0.50
+siltyClay,106,2017_VITIDUR_3176_T,taste,bitterness,2,1.00
+siltyClay,106,2017_VITIDUR_3176_TM,taste,bitterness,2,1.00
+siltyClay,106,2017_VITIDUR_3176_MC,taste,bitterness,2,0.50
+siltyClay,106,2017_QUALIVINBIO_3176,taste,bitterness,2,0.50
+siltyClay,106,2017_VITIDUR_3176_R,taste,dilute,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,dilute,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,dilute,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,dilute,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,dilute,1,1.00
+siltyClay,106,2017_VITIDUR_3176_R,taste,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3176_T,taste,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3176_TM,taste,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3176_MC,taste,reduced,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3176,taste,reduced,1,1.00
+Limono-argileux,103,2017_RESDUR_R,visual,purplish,4,1.00
+Limono-argileux,103,2017_RESDUR_R,visual,dark,4,1.00
+Limono-argileux,103,2017_RESDUR_R,visual,pureRed (cherry),2,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,spicy,3,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,fruity,2,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,vegetal,1,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,cookedFruits,1,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,paper,2,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,chimic,2,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,ascent,1,1.00
+Limono-argileux,103,2017_RESDUR_R,olfactory,animal,1,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,bitterness,4,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,acid,3,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,balanced,3,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,astringent,2,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,persistent,1,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,dilute,4,1.00
+Limono-argileux,103,2017_RESDUR_R,taste,bitterness,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,visual,dark,5,0.60
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,visual,dark,5,0.40
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,visual,dark,5,0.20
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,visual,dark,5,0.60
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,visual,dark,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,visual,purplish,4,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,visual,purplish,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,visual,purplish,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,visual,purplish,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,visual,purplish,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,visual,pureRed (cherry),2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,visual,pureRed (cherry),2,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,visual,pureRed (cherry),2,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,visual,pureRed (cherry),2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,visual,pureRed (cherry),2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,visual,clear,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,visual,clear,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,visual,clear,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,visual,clear,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,visual,clear,4,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,visual,turbid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,visual,turbid,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,visual,turbid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,visual,turbid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,visual,turbid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,mushroom,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,mushroom,4,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,mushroom,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,mushroom,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,mushroom,4,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,fruity,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,fruity,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,fruity,3,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,fruity,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,fruity,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,vegetal,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,vegetal,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,vegetal,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,vegetal,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,vegetal,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,empyreumatic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,empyreumatic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,empyreumatic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,empyreumatic,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,empyreumatic,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,spicy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,spicy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,spicy,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,spicy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,spicy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,cookedFruits,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,cookedFruits,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,cookedFruits,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,cookedFruits,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,cookedFruits,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,fermentationAroma,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,candy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,candy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,candy,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,candy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,candy,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,reduced,5,0.80
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,reduced,5,0.60
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,reduced,5,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,reduced,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,reduced,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,ascent,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,ascent,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,ascent,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,ascent,5,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,ascent,5,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,chimic,2,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,chimic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,chimic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,chimic,2,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,chimic,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,animal,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,animal,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,animal,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,animal,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,animal,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,plastic,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,plastic,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,plastic,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,plastic,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,plastic,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,mop,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,mop,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,mop,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,mop,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,mop,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,dust,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,dust,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,dust,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,dust,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,dust,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,nailPolish,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,nailPolish,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,nailPolish,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,nailPolish,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,nailPolish,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,olfactory,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,olfactory,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,olfactory,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,olfactory,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,olfactory,mushroom,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,balanced,6,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,balanced,6,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,balanced,6,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,balanced,6,0.17
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,balanced,6,0.17
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,acid,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,acid,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,acid,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,acid,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,acid,4,0.75
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,bitterness,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,bitterness,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,bitterness,4,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,bitterness,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,bitterness,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,astringent,3,0.67
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,astringent,3,0.67
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,astringent,3,0.33
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,astringent,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,astringent,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,fat,3,0.33
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,fat,3,0.33
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,fat,3,0.67
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,fat,3,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,fat,3,0.33
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,sweetness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,sweetness,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,sweetness,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,sweetness,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,sweetness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,persistent,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,persistent,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,persistent,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,persistent,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,persistent,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,undergrowth,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,undergrowth,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,undergrowth,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,undergrowth,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,undergrowth,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,glue,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,glue,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,glue,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,glue,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,glue,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,dilute,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,dilute,4,0.25
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,dilute,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,dilute,4,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,dilute,4,0.50
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,nailPolish,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,nailPolish,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,nailPolish,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,nailPolish,2,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,nailPolish,2,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,alcohol,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,alcohol,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,alcohol,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,alcohol,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,alcohol,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,acid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,acid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,acid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,acid,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,acid,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,bitterness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,bitterness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,bitterness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,bitterness,1,1.00
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,bitterness,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,taste,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,taste,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,taste,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,taste,mushroom,1,NaN
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,taste,mushroom,1,1.00
+sandySiltyClay,81,2017_Prevox_01,visual,alsmostColourless,6,NaN
+sandySiltyClay,81,2017_Prevox_02,visual,alsmostColourless,6,1.00
+sandySiltyClay,81,2017_Prevox_03,visual,alsmostColourless,6,NaN
+sandySiltyClay,81,2017_Prevox_04,visual,alsmostColourless,6,NaN
+sandySiltyClay,81,2017_Prevox_01,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySiltyClay,81,2017_Prevox_02,visual,veryLightYellowWithGreenSparkles,6,NaN
+sandySiltyClay,81,2017_Prevox_03,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySiltyClay,81,2017_Prevox_04,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySiltyClay,81,2017_Prevox_01,visual,strawYellowGoldYellow,2,0.50
+sandySiltyClay,81,2017_Prevox_02,visual,strawYellowGoldYellow,2,NaN
+sandySiltyClay,81,2017_Prevox_03,visual,strawYellowGoldYellow,2,NaN
+sandySiltyClay,81,2017_Prevox_04,visual,strawYellowGoldYellow,2,0.50
+sandySiltyClay,81,2017_Prevox_01,visual,turbid,1,NaN
+sandySiltyClay,81,2017_Prevox_02,visual,turbid,1,NaN
+sandySiltyClay,81,2017_Prevox_03,visual,turbid,1,NaN
+sandySiltyClay,81,2017_Prevox_04,visual,turbid,1,1.00
+sandySiltyClay,81,2017_Prevox_01,olfactory,candy,5,0.80
+sandySiltyClay,81,2017_Prevox_02,olfactory,candy,5,0.20
+sandySiltyClay,81,2017_Prevox_03,olfactory,candy,5,0.20
+sandySiltyClay,81,2017_Prevox_04,olfactory,candy,5,0.20
+sandySiltyClay,81,2017_Prevox_01,olfactory,amylic,4,0.25
+sandySiltyClay,81,2017_Prevox_02,olfactory,amylic,4,0.50
+sandySiltyClay,81,2017_Prevox_03,olfactory,amylic,4,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,amylic,4,0.25
+sandySiltyClay,81,2017_Prevox_01,olfactory,fruity,3,0.67
+sandySiltyClay,81,2017_Prevox_02,olfactory,fruity,3,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,fruity,3,0.33
+sandySiltyClay,81,2017_Prevox_04,olfactory,fruity,3,0.33
+sandySiltyClay,81,2017_Prevox_01,olfactory,fermentationAroma,3,NaN
+sandySiltyClay,81,2017_Prevox_02,olfactory,fermentationAroma,3,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,fermentationAroma,3,0.67
+sandySiltyClay,81,2017_Prevox_04,olfactory,fermentationAroma,3,0.33
+sandySiltyClay,81,2017_Prevox_01,olfactory,milky,2,0.50
+sandySiltyClay,81,2017_Prevox_02,olfactory,milky,2,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,milky,2,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,milky,2,0.50
+sandySiltyClay,81,2017_Prevox_01,olfactory,flowery,1,1.00
+sandySiltyClay,81,2017_Prevox_02,olfactory,flowery,1,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,flowery,1,1.00
+sandySiltyClay,81,2017_Prevox_04,olfactory,flowery,1,NaN
+sandySiltyClay,81,2017_Prevox_01,olfactory,englishCandy,1,1.00
+sandySiltyClay,81,2017_Prevox_02,olfactory,englishCandy,1,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,englishCandy,1,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,englishCandy,1,NaN
+sandySiltyClay,81,2017_Prevox_01,olfactory,patisserie,1,1.00
+sandySiltyClay,81,2017_Prevox_02,olfactory,patisserie,1,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,patisserie,1,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,patisserie,1,NaN
+sandySiltyClay,81,2017_Prevox_01,olfactory,ventilated (oxidised),4,NaN
+sandySiltyClay,81,2017_Prevox_02,olfactory,ventilated (oxidised),4,1.00
+sandySiltyClay,81,2017_Prevox_03,olfactory,ventilated (oxidised),4,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,ventilated (oxidised),4,NaN
+sandySiltyClay,81,2017_Prevox_01,olfactory,reduced,2,NaN
+sandySiltyClay,81,2017_Prevox_02,olfactory,reduced,2,NaN
+sandySiltyClay,81,2017_Prevox_03,olfactory,reduced,2,1.00
+sandySiltyClay,81,2017_Prevox_04,olfactory,reduced,2,NaN
+sandySiltyClay,81,2017_Prevox_01,olfactory,butter,1,NaN
+sandySiltyClay,81,2017_Prevox_02,olfactory,butter,1,1.00
+sandySiltyClay,81,2017_Prevox_03,olfactory,butter,1,NaN
+sandySiltyClay,81,2017_Prevox_04,olfactory,butter,1,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,acid,5,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,acid,5,0.60
+sandySiltyClay,81,2017_Prevox_03,taste,acid,5,0.40
+sandySiltyClay,81,2017_Prevox_04,taste,acid,5,0.40
+sandySiltyClay,81,2017_Prevox_01,taste,fat,5,0.80
+sandySiltyClay,81,2017_Prevox_02,taste,fat,5,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,fat,5,0.40
+sandySiltyClay,81,2017_Prevox_04,taste,fat,5,0.60
+sandySiltyClay,81,2017_Prevox_01,taste,balanced,5,0.60
+sandySiltyClay,81,2017_Prevox_02,taste,balanced,5,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,balanced,5,0.60
+sandySiltyClay,81,2017_Prevox_04,taste,balanced,5,0.40
+sandySiltyClay,81,2017_Prevox_01,taste,bitterness,4,0.75
+sandySiltyClay,81,2017_Prevox_02,taste,bitterness,4,0.50
+sandySiltyClay,81,2017_Prevox_03,taste,bitterness,4,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,bitterness,4,0.50
+sandySiltyClay,81,2017_Prevox_01,taste,aromatic,4,0.75
+sandySiltyClay,81,2017_Prevox_02,taste,aromatic,4,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,aromatic,4,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,aromatic,4,0.50
+sandySiltyClay,81,2017_Prevox_01,taste,astringent,3,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,astringent,3,0.67
+sandySiltyClay,81,2017_Prevox_03,taste,astringent,3,0.33
+sandySiltyClay,81,2017_Prevox_04,taste,astringent,3,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,sweetness,3,1.00
+sandySiltyClay,81,2017_Prevox_02,taste,sweetness,3,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,sweetness,3,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,sweetness,3,0.33
+sandySiltyClay,81,2017_Prevox_01,taste,persistent,1,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,persistent,1,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,persistent,1,1.00
+sandySiltyClay,81,2017_Prevox_04,taste,persistent,1,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,alcohol,2,0.50
+sandySiltyClay,81,2017_Prevox_02,taste,alcohol,2,0.50
+sandySiltyClay,81,2017_Prevox_03,taste,alcohol,2,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,alcohol,2,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,bitterness,2,0.50
+sandySiltyClay,81,2017_Prevox_02,taste,bitterness,2,0.50
+sandySiltyClay,81,2017_Prevox_03,taste,bitterness,2,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,bitterness,2,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,dilute,1,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,dilute,1,NaN
+sandySiltyClay,81,2017_Prevox_03,taste,dilute,1,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,dilute,1,1.00
+sandySiltyClay,81,2017_Prevox_01,taste,astringent,1,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,astringent,1,1.00
+sandySiltyClay,81,2017_Prevox_03,taste,astringent,1,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,astringent,1,NaN
+sandySiltyClay,81,2017_Prevox_01,taste,apple blete,1,NaN
+sandySiltyClay,81,2017_Prevox_02,taste,apple blete,1,1.00
+sandySiltyClay,81,2017_Prevox_03,taste,apple blete,1,NaN
+sandySiltyClay,81,2017_Prevox_04,taste,apple blete,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,visual,veryLightYellowWithGreenSparkles,5,0.40
+sandySiltyClay,85,2017_RUN_ST2_15_B,visual,veryLightYellowWithGreenSparkles,5,0.20
+sandySiltyClay,85,2017_RUN_ST2_16_B,visual,veryLightYellowWithGreenSparkles,5,0.80
+sandySiltyClay,85,2017_RUN_ST2_21_B,visual,veryLightYellowWithGreenSparkles,5,0.40
+sandySiltyClay,85,2017_RUN_ST2_14_B,visual,alsmostColourless,3,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,visual,alsmostColourless,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,visual,alsmostColourless,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,visual,alsmostColourless,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_14_B,visual,strawYellowGoldYellow,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,visual,strawYellowGoldYellow,3,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,visual,strawYellowGoldYellow,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,visual,strawYellowGoldYellow,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_14_B,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,visual,turbid,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,visual,tartricDeposit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,visual,tartricDeposit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,visual,tartricDeposit,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,visual,tartricDeposit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,candy,4,0.50
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,candy,4,0.25
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,candy,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,candy,4,0.25
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,flowery,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,flowery,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,flowery,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,flowery,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,fruity,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,fruity,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,fruity,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,fruity,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,mineral,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,mineral,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,mineral,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,mineral,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,closed,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,closed,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,closed,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,closed,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,almond,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,alcohol,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,ventilated (oxidised),7,0.71
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,ventilated (oxidised),7,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,ventilated (oxidised),7,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,ventilated (oxidised),7,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,reduced,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,reduced,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,reduced,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,reduced,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,sulphurousAnhydric,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,sulphurousAnhydric,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,sulphurousAnhydric,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,sulphurousAnhydric,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,ascent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,ascent,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,ascent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,ascent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,cooked (oxidised +),1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,animal,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,mouldy,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,spoiledFruit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,spoiledFruit,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,spoiledFruit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,spoiledFruit,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,olfactory,glue,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,olfactory,glue,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,olfactory,glue,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,olfactory,glue,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,acid,5,0.20
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,acid,5,0.60
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,acid,5,0.60
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,acid,5,0.40
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,bitterness,4,0.75
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,bitterness,4,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,bitterness,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,bitterness,4,0.25
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,astringent,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,astringent,3,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,astringent,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,astringent,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,balanced,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,balanced,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,balanced,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,balanced,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,sweetness,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,sweetness,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,sweetness,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,sweetness,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,persistent,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,iodized,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,iodized,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,iodized,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,iodized,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,bitterness,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,bitterness,3,0.67
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,bitterness,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,alcohol,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,alcohol,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,alcohol,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,alcohol,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,dilute,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,dilute,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,dilute,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,dilute,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,acid,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,acid,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,acid,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,acid,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,astringent,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,astringent,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,astringent,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,astringent,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_14_B,taste,oxidised,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_15_B,taste,oxidised,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_16_B,taste,oxidised,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_21_B,taste,oxidised,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,visual,veryLightYellowWithGreenSparkles,6,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,visual,veryLightYellowWithGreenSparkles,6,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,visual,strawYellowGoldYellow,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,visual,strawYellowGoldYellow,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,visual,strawYellowGoldYellow,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,visual,strawYellowGoldYellow,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,visual,strawYellowGoldYellow,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,fruity,5,0.60
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,fruity,5,0.40
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,fruity,5,0.40
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,fruity,5,0.40
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,fruity,5,0.60
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,candy,5,0.60
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,candy,5,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,candy,5,0.40
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,candy,5,0.60
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,candy,5,0.80
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,amylic,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,amylic,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,amylic,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,amylic,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,amylic,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,mineral,3,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,mineral,3,0.33
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,mineral,3,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,mineral,3,0.33
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,mineral,3,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,flowery,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,flowery,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,flowery,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,flowery,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,flowery,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,fermentationAroma,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,fermentationAroma,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,fermentationAroma,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,fermentationAroma,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,fermentationAroma,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,milky,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,milky,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,milky,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,milky,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,milky,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,ethanol,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,ethanol,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,ethanol,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,ethanol,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,ethanol,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,ventilated (oxidised),4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,ventilated (oxidised),4,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,ventilated (oxidised),4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,ventilated (oxidised),4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,ventilated (oxidised),4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,reduced,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,reduced,2,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,reduced,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,reduced,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,reduced,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,dishwashingWater,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,dishwashingWater,2,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,dishwashingWater,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,dishwashingWater,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,dishwashingWater,2,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,chimic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,chimic,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,chimic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,chimic,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,chimic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,olfactory,hospital,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,olfactory,hospital,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,olfactory,hospital,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,olfactory,hospital,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,olfactory,hospital,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,acid,7,0.71
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,acid,7,0.14
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,acid,7,0.14
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,acid,7,0.57
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,acid,7,0.43
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,bitterness,6,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,bitterness,6,0.33
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,bitterness,6,0.17
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,bitterness,6,0.33
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,bitterness,6,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,astringent,4,0.75
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,astringent,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,astringent,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,astringent,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,astringent,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,sweetness,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,sweetness,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,sweetness,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,sweetness,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,sweetness,4,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,fat,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,fat,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,fat,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,fat,4,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,fat,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,balanced,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,balanced,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,balanced,4,0.25
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,balanced,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,balanced,4,0.50
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,persistent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,persistent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,persistent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,persistent,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,persistent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,aromatic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,aromatic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,aromatic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,aromatic,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,aromatic,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,alcohol,3,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,alcohol,3,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,alcohol,3,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,alcohol,3,0.67
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,alcohol,3,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,dilute,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,dilute,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,dilute,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,dilute,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,dilute,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,bitterness,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,bitterness,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,bitterness,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,bitterness,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,bitterness,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,astringent,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,astringent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,astringent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,astringent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,astringent,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,taste,mouldy,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,taste,mouldy,1,1.00
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,taste,mouldy,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,taste,mouldy,1,NaN
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,taste,mouldy,1,NaN
+siltyClay,106,2017_VITIDUR_3159,visual,veryLightYellowWithGreenSparkles,7,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,visual,veryLightYellowWithGreenSparkles,7,NaN
+siltyClay,106,2017_VITIDUR_3159,visual,almond,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,visual,almond,1,NaN
+siltyClay,106,2017_VITIDUR_3159,visual,petroleum,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3159,visual,petroleum,1,1.00
+siltyClay,106,2017_VITIDUR_3159,olfactory,fruity,4,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,fruity,4,NaN
+siltyClay,106,2017_VITIDUR_3159,olfactory,candy,3,NaN
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,candy,3,1.00
+siltyClay,106,2017_VITIDUR_3159,olfactory,vegetal,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,vegetal,1,NaN
+siltyClay,106,2017_VITIDUR_3159,olfactory,milky,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,milky,1,1.00
+siltyClay,106,2017_VITIDUR_3159,olfactory,amylic,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,amylic,1,NaN
+siltyClay,106,2017_VITIDUR_3159,olfactory,mouldy,3,0.67
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,mouldy,3,0.33
+siltyClay,106,2017_VITIDUR_3159,olfactory,ventilated (oxidised),3,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,ventilated (oxidised),3,0.33
+siltyClay,106,2017_VITIDUR_3159,olfactory,reduced,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,reduced,1,NaN
+siltyClay,106,2017_VITIDUR_3159,olfactory,chimic,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,chimic,1,1.00
+siltyClay,106,2017_VITIDUR_3159,olfactory,sulphurousAnhydric,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3159,olfactory,sulphurousAnhydric,1,1.00
+siltyClay,106,2017_VITIDUR_3159,taste,sweetness,6,0.17
+siltyClay,106,2017_QUALIVINBIO_3159,taste,sweetness,6,0.83
+siltyClay,106,2017_VITIDUR_3159,taste,fat,4,0.50
+siltyClay,106,2017_QUALIVINBIO_3159,taste,fat,4,1.00
+siltyClay,106,2017_VITIDUR_3159,taste,acid,3,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,acid,3,NaN
+siltyClay,106,2017_VITIDUR_3159,taste,balanced,2,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,balanced,2,NaN
+siltyClay,106,2017_VITIDUR_3159,taste,persistent,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,persistent,1,NaN
+siltyClay,106,2017_VITIDUR_3159,taste,iodized,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,iodized,1,NaN
+siltyClay,106,2017_VITIDUR_3159,taste,alcohol,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,alcohol,1,NaN
+siltyClay,106,2017_VITIDUR_3159,taste,dilute,1,NaN
+siltyClay,106,2017_QUALIVINBIO_3159,taste,dilute,1,1.00
+siltyClay,106,2017_VITIDUR_3159,taste,mushroom,1,1.00
+siltyClay,106,2017_QUALIVINBIO_3159,taste,mushroom,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,visual,clear,7,0.57
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,visual,clear,7,0.29
+siltyClay,106,2017_VITIDUR_3160_Rs,visual,clear,7,0.14
+sandySilty,57,2017_VDQA_G2_57_Rs,visual,clear,7,0.57
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,visual,clear,7,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,visual,salmonPink,6,0.50
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,visual,salmonPink,6,0.83
+siltyClay,106,2017_VITIDUR_3160_Rs,visual,salmonPink,6,0.17
+sandySilty,57,2017_VDQA_G2_57_Rs,visual,salmonPink,6,0.50
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,visual,salmonPink,6,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,visual,dark,6,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,visual,dark,6,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,visual,dark,6,0.33
+sandySilty,57,2017_VDQA_G2_57_Rs,visual,dark,6,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,visual,dark,6,1.00
+sandySilty,57,2017_VDQA_G14_57_Rs,visual,purePink,5,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,visual,purePink,5,0.20
+siltyClay,106,2017_VITIDUR_3160_Rs,visual,purePink,5,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,visual,purePink,5,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,visual,purePink,5,0.80
+sandySilty,57,2017_VDQA_G14_57_Rs,visual,pinkyWithYellowSparkles,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,visual,pinkyWithYellowSparkles,2,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,visual,pinkyWithYellowSparkles,2,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,visual,pinkyWithYellowSparkles,2,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,visual,pinkyWithYellowSparkles,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,fruity,7,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,fruity,7,0.57
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,fruity,7,0.71
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,fruity,7,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,fruity,7,0.29
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,vegetal,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,vegetal,4,0.50
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,vegetal,4,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,vegetal,4,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,vegetal,4,0.50
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,amylic,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,amylic,3,0.33
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,amylic,3,0.33
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,amylic,3,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,amylic,3,0.33
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,candy,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,candy,2,0.50
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,candy,2,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,candy,2,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,candy,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,flowery,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,flowery,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,flowery,1,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,flowery,1,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,flowery,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,fermentationAroma,1,1.00
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,fermentationAroma,1,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,fermentationAroma,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,ammonia,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,ammonia,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,ammonia,1,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,ammonia,1,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,ammonia,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,reduced,6,0.83
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,reduced,6,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,reduced,6,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,reduced,6,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,reduced,6,0.33
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,chimic,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,chimic,2,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,chimic,2,0.50
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,chimic,2,0.50
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,chimic,2,0.50
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,ammonia,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,ammonia,2,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,ammonia,2,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,ammonia,2,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,ammonia,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,ascent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,ascent,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,ascent,1,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,ascent,1,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,ascent,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,mouldy,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,mouldy,1,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,mouldy,1,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,mouldy,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,olfactory,sulphur,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,olfactory,sulphur,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,olfactory,sulphur,1,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,olfactory,sulphur,1,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,olfactory,sulphur,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,balanced,7,0.14
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,balanced,7,0.71
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,balanced,7,0.57
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,balanced,7,0.14
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,balanced,7,0.14
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,acid,6,0.17
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,acid,6,0.83
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,acid,6,0.50
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,acid,6,0.17
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,acid,6,0.17
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,fat,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,fat,4,0.50
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,fat,4,0.50
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,fat,4,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,fat,4,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,astringent,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,astringent,3,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,astringent,3,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,astringent,3,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,astringent,3,1.00
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,aromatic,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,aromatic,3,0.67
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,aromatic,3,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,aromatic,3,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,aromatic,3,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,bitterness,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,bitterness,2,0.50
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,bitterness,2,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,bitterness,2,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,bitterness,2,0.50
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,sweetness,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,sweetness,2,0.50
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,sweetness,2,0.50
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,sweetness,2,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,sweetness,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,persistent,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,persistent,1,1.00
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,persistent,1,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,persistent,1,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,dilute,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,dilute,4,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,dilute,4,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,dilute,4,0.50
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,dilute,4,0.75
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,alcohol,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,alcohol,3,0.33
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,alcohol,3,0.33
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,alcohol,3,NaN
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,alcohol,3,0.33
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,acid,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,acid,2,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,acid,2,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,acid,2,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,acid,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,reduced,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,reduced,2,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,reduced,2,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,reduced,2,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,reduced,2,NaN
+sandySilty,57,2017_VDQA_G14_57_Rs,taste,rot,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_12_Rs,taste,rot,1,NaN
+siltyClay,106,2017_VITIDUR_3160_Rs,taste,rot,1,NaN
+sandySilty,57,2017_VDQA_G2_57_Rs,taste,rot,1,1.00
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,taste,rot,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,visual,dark,7,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,visual,dark,7,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,visual,dark,7,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,visual,purplish,6,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,visual,purplish,6,0.67
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,visual,purplish,6,0.83
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,visual,pureRed (cherry),1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,visual,pureRed (cherry),1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,visual,pureRed (cherry),1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,visual,redWithOrangeFringes,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,visual,redWithOrangeFringes,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,visual,redWithOrangeFringes,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,visual,brownRed,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,visual,brownRed,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,visual,brownRed,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,flowery,3,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,flowery,3,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,flowery,3,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,fruity,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,fruity,3,0.67
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,fruity,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,empyreumatic,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,empyreumatic,3,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,empyreumatic,3,0.67
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,spicy,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,spicy,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,spicy,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,vegetal,2,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,vegetal,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,vegetal,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,cookedFruits,2,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,cookedFruits,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,cookedFruits,2,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,amylic,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,amylic,2,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,amylic,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,fermentationAroma,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,fermentationAroma,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,fermentationAroma,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,milky,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,milky,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,milky,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,framboise,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,framboise,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,framboise,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,pharmaceutique,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,pharmaceutique,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,pharmaceutique,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,champagne,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,champagne,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,champagne,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,liquorice,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,liquorice,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,liquorice,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,olfactory,reduced,2,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,olfactory,reduced,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,olfactory,reduced,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,astringent,6,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,astringent,6,0.17
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,astringent,6,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,acid,4,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,acid,4,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,acid,4,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,bitterness,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,bitterness,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,bitterness,3,0.67
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,sweetness,3,0.67
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,sweetness,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,sweetness,3,0.33
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,fat,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,fat,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,fat,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,balanced,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,balanced,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,balanced,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,aromatic,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,aromatic,2,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,aromatic,2,0.50
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,persistent,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,persistent,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,persistent,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,watery,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,watery,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,watery,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,alcohol,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,alcohol,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,alcohol,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,dilute,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,dilute,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,dilute,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_TEM,taste,sparkling,1,NaN
+claySiltyLimestone,,2017_ECOVITI_GRE_INB,taste,sparkling,1,1.00
+claySiltyLimestone,,2017_ECOVITI_GRE_G50,taste,sparkling,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,dark,8,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,dark,8,0.88
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,dark,8,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,dark,8,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,pureRed (cherry),6,0.67
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,pureRed (cherry),6,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,pureRed (cherry),6,0.17
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,pureRed (cherry),6,0.50
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,purplish,5,0.20
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,purplish,5,0.80
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,purplish,5,0.60
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,purplish,5,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,redWithOrangeFringes,2,1.00
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,turbid,2,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,turbid,2,0.50
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,turbid,2,0.50
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,turbid,2,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,visual,brownRed,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,visual,brownRed,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,visual,brownRed,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,visual,brownRed,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,fruity,5,0.20
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,fruity,5,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,fruity,5,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,fruity,5,0.80
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,vegetal,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,vegetal,3,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,vegetal,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,vegetal,3,0.33
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,empyreumatic,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,empyreumatic,3,0.67
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,empyreumatic,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,empyreumatic,3,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,cookedFruits,3,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,cookedFruits,3,0.33
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,cookedFruits,3,0.67
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,cookedFruits,3,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,flowery,2,0.50
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,flowery,2,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,flowery,2,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,flowery,2,0.50
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,spicy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,spicy,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,spicy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,spicy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,fermentationAroma,1,1.00
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,amylic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,amylic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,amylic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,amylic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,candy,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,almond,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,almond,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,reduced,3,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,reduced,3,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,reduced,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,reduced,3,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,ventilated (oxidised),3,0.67
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,ventilated (oxidised),3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,animal,2,0.50
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,animal,2,0.50
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,animal,2,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,animal,2,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,rubber,2,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,rubber,2,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,rubber,2,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,rubber,2,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,mouldy,2,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,mouldy,2,0.50
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,mouldy,2,0.50
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,mouldy,2,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,cooked (oxidised +),1,1.00
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,paper,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,paper,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,paper,1,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,paper,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,sulphurousAnhydric,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,sulphurousAnhydric,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,sulphurousAnhydric,1,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,sulphurousAnhydric,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,rubber,1,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,leather,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,leather,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,leather,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,leather,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,olfactory,sweat,1,1.00
+sandySiltyClay,85,2017_RUN ST2_03_R,olfactory,sweat,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,olfactory,sweat,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,olfactory,sweat,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,astringent,7,0.29
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,astringent,7,0.57
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,astringent,7,0.57
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,astringent,7,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,persistent,4,0.25
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,persistent,4,0.50
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,persistent,4,0.50
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,persistent,4,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,acid,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,acid,3,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,acid,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,acid,3,0.33
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,sweetness,2,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,sweetness,2,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,sweetness,2,0.50
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,sweetness,2,0.50
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,balanced,2,0.50
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,balanced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,balanced,2,0.50
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,balanced,2,0.50
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,aromatic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,aromatic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,aromatic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,aromatic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,astringent,3,0.33
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,astringent,3,0.67
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,astringent,3,0.33
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,astringent,3,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,dilute,2,1.00
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,dilute,2,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,dilute,2,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,dilute,2,1.00
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,alcohol,1,1.00
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,acid,1,1.00
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_02_R,taste,vegetal,1,NaN
+sandySiltyClay,85,2017_RUN ST2_03_R,taste,vegetal,1,NaN
+sandySiltyClay,85,2017_RUN ST2_04_R,taste,vegetal,1,NaN
+sandySiltyClay,85,2017_RUN ST2_12_R,taste,vegetal,1,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,dark,8,0.88
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,dark,8,0.25
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,dark,8,0.12
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,purplish,6,0.33
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,purplish,6,0.83
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,purplish,6,0.33
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,pureRed (cherry),2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,pureRed (cherry),2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,pureRed (cherry),2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,redWithOrangeFringes,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,turbid,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,fruity,5,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,fruity,5,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,fruity,5,0.20
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,vegetal,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,vegetal,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,vegetal,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,empyreumatic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,empyreumatic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,empyreumatic,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,cookedFruits,1,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,cookedFruits,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,cookedFruits,1,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,fermentationAroma,1,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,fermentationAroma,1,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,amylic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,amylic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,amylic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,Glutamate,1,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,Glutamate,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,Glutamate,1,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,ventilated (oxidised),5,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,ventilated (oxidised),5,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,ventilated (oxidised),5,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,reduced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,reduced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,reduced,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,ascent,2,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,ascent,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,ascent,2,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,cooked (oxidised +),1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,cooked (oxidised +),1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,plastic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,plastic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,plastic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,visual,Madère,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,visual,Madère,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,visual,Madère,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,astringent,6,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,astringent,6,0.50
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,astringent,6,0.67
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,sweetness,3,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,sweetness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,sweetness,3,0.67
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,acid,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,acid,2,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,acid,2,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,bitterness,2,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,bitterness,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,bitterness,2,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,fat,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,fat,2,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,fat,2,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,balanced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,balanced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,balanced,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,persistent,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,persistent,2,0.50
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,persistent,2,0.50
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,aromatic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,aromatic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,aromatic,2,1.00
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,Déviant,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,Déviant,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,Déviant,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,dilute,1,NaN
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,dilute,1,1.00
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,dilute,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,ethanol,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,ethanol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,ethanol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_01_R,taste,maderized,1,1.00
+sandySiltyClay,85,2017_RUN ST2_07_R,taste,maderized,1,NaN
+sandySiltyClay,85,2017_RUN ST2_08_R,taste,maderized,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,visual,dark,8,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,visual,dark,8,0.88
+sandySiltyClay,85,2017_RUN ST2_09_R,visual,dark,8,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,visual,purplish,5,0.20
+sandySiltyClay,85,2017_RUN ST2_06_R,visual,purplish,5,0.80
+sandySiltyClay,85,2017_RUN ST2_09_R,visual,purplish,5,0.60
+sandySiltyClay,85,2017_RUN ST2_05_R,visual,redWithOrangeFringes,2,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,visual,redWithOrangeFringes,2,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,vegetal,3,0.33
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,vegetal,3,0.67
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,vegetal,3,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,fruity,3,0.67
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,fruity,3,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,fruity,3,0.33
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,flowery,2,0.50
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,flowery,2,0.50
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,flowery,2,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,cookedFruits,2,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,cookedFruits,2,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,cookedFruits,2,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,spicy,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,spicy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,spicy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,fermentationAroma,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,fermentationAroma,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,candy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,candy,1,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,smoky,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,smoky,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,smoky,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,ventilated (oxidised),3,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,reduced,2,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,reduced,2,0.50
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,reduced,2,0.50
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,plastic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,plastic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,plastic,2,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,paper,2,0.50
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,paper,2,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,paper,2,0.50
+sandySiltyClay,85,2017_RUN ST2_05_R,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,olfactory,animal,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,acid,6,0.50
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,acid,6,0.17
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,acid,6,0.33
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,astringent,5,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,astringent,5,0.60
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,astringent,5,0.80
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,balanced,5,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,balanced,5,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,balanced,5,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,bitterness,3,0.33
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,bitterness,3,0.67
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,fat,2,0.50
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,fat,2,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,fat,2,0.50
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,sweetness,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,sweetness,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,sweetness,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,persistent,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,persistent,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,aromatic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,aromatic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,aromatic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,Structure,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,Structure,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,Structure,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,astringent,3,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,astringent,3,0.33
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,astringent,3,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,dilute,2,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,dilute,2,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,dilute,2,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,alcohol,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,acid,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,acid,1,1.00
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,bitterness,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,bitterness,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,bitterness,1,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,reduced,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,reduced,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,reduced,1,NaN
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,pressWine,1,NaN
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,pressWine,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,pressWine,1,1.00
+sandySiltyClay,85,2017_RUN ST2_05_R,taste,metalic,1,1.00
+sandySiltyClay,85,2017_RUN ST2_06_R,taste,metalic,1,NaN
+sandySiltyClay,85,2017_RUN ST2_09_R,taste,metalic,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,purplish,6,0.33
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,purplish,6,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,purplish,6,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,redWithOrangeFringes,6,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,redWithOrangeFringes,6,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,redWithOrangeFringes,6,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,pureRed (cherry),3,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,pureRed (cherry),3,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,pureRed (cherry),3,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,dark,3,0.67
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,dark,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,dark,3,0.67
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,clear,2,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,clear,2,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,clear,2,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,brownRed,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,brownRed,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,brownRed,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,visual,turbid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,visual,turbid,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,vegetal,7,0.29
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,vegetal,7,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,vegetal,7,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,pepper,6,0.17
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,pepper,6,0.83
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,pepper,6,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,fruity,4,0.50
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,fruity,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,fruity,4,0.50
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,empyreumatic,4,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,empyreumatic,4,0.50
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,empyreumatic,4,0.50
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,cookedFruits,4,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,cookedFruits,4,0.75
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,cookedFruits,4,0.25
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,flowery,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,flowery,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,flowery,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,sweet,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,sweet,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,sweet,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,reduced,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,reduced,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,reduced,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,ventilated (oxidised),1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,ventilated (oxidised),1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,ventilated (oxidised),1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,animal,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,animal,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,rubber,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,rubber,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,mouldy,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,mouldy,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,dust,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,dust,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,dust,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,sweat,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,sweat,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,sweat,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,socks,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,socks,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,socks,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,olfactory,rotPepper,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,olfactory,rotPepper,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,olfactory,rotPepper,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,bitterness,6,0.33
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,bitterness,6,0.33
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,bitterness,6,0.33
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,astringent,6,0.50
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,astringent,6,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,astringent,6,0.67
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,sweetness,4,0.25
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,sweetness,4,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,sweetness,4,0.75
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,fat,3,0.33
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,fat,3,0.67
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,balanced,3,0.33
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,balanced,3,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,balanced,3,0.67
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,acid,2,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,acid,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,acid,2,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,persistent,2,0.50
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,persistent,2,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,persistent,2,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,aromatic,2,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,aromatic,2,0.50
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,aromatic,2,0.50
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,Chaud,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,Chaud,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,Chaud,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,Herbacé,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,Herbacé,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,Herbacé,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,alcohol,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,alcohol,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,dilute,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,dilute,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,dilute,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,acid,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,acid,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,bitterness,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,bitterness,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,bitterness,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,astringent,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,astringent,1,1.00
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,astringent,1,NaN
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,effervescent,1,NaN
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,effervescent,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,effervescent,1,1.00
+sandySiltyClay,85,2017_RUN ST3_10_R,taste,sparkling,1,1.00
+sandySiltyClay,85,2017_RUN ST2_11_R,taste,sparkling,1,NaN
+sandySiltyClay,85,2017_RUN_ST2_22_R,taste,sparkling,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,visual,purplish,4,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,visual,purplish,4,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,visual,dark,4,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,visual,dark,4,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,visual,pureRed (cherry),1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,visual,pureRed (cherry),1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,fruity,2,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,fruity,2,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,cookedFruits,2,0.50
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,cookedFruits,2,0.50
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,vegetal,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,vegetal,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,spicy,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,spicy,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,milky,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,milky,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,strong,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,strong,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,ascent,1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,ascent,1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,olfactory,plastic,1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,olfactory,plastic,1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,taste,balanced,5,0.80
+sandySiltyClay,72,2017_BOUQ_MARS,taste,balanced,5,0.20
+sandySiltyClay,72,2017_BOUQ_CABES,taste,acid,1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,taste,acid,1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,taste,astringent,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,taste,astringent,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,taste,sweetness,1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,taste,sweetness,1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,taste,fat,1,NaN
+sandySiltyClay,72,2017_BOUQ_MARS,taste,fat,1,1.00
+sandySiltyClay,72,2017_BOUQ_CABES,taste,aromatic,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,taste,aromatic,1,NaN
+sandySiltyClay,72,2017_BOUQ_CABES,taste,liquorice,1,1.00
+sandySiltyClay,72,2017_BOUQ_MARS,taste,liquorice,1,NaN
+,,2017_ECOVITI_MOUR_IPM50,visual,purplish,5,0.60
+,,2017_ECOVITI_MOUR_INOBIO,visual,purplish,5,0.40
+,,2017_ECOVITI_MOUR_IPM50,visual,dark,5,1.00
+,,2017_ECOVITI_MOUR_INOBIO,visual,dark,5,NaN
+,,2017_ECOVITI_MOUR_IPM50,visual,pureRed (cherry),2,NaN
+,,2017_ECOVITI_MOUR_INOBIO,visual,pureRed (cherry),2,1.00
+,,2017_ECOVITI_MOUR_IPM50,olfactory,fruity,4,1.00
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,fruity,4,NaN
+,,2017_ECOVITI_MOUR_IPM50,olfactory,flowery,1,1.00
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,flowery,1,NaN
+,,2017_ECOVITI_MOUR_IPM50,olfactory,vegetal,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,vegetal,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,olfactory,empyreumatic,1,1.00
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,empyreumatic,1,NaN
+,,2017_ECOVITI_MOUR_IPM50,olfactory,spicy,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,spicy,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,olfactory,cookedFruits,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,cookedFruits,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,olfactory,reduced,2,0.50
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,reduced,2,0.50
+,,2017_ECOVITI_MOUR_IPM50,olfactory,animal,1,1.00
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,animal,1,NaN
+,,2017_ECOVITI_MOUR_IPM50,olfactory,paper,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,olfactory,paper,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,taste,astringent,5,0.80
+,,2017_ECOVITI_MOUR_INOBIO,taste,astringent,5,0.20
+,,2017_ECOVITI_MOUR_IPM50,taste,fat,3,0.67
+,,2017_ECOVITI_MOUR_INOBIO,taste,fat,3,0.33
+,,2017_ECOVITI_MOUR_IPM50,taste,acid,2,0.50
+,,2017_ECOVITI_MOUR_INOBIO,taste,acid,2,0.50
+,,2017_ECOVITI_MOUR_IPM50,taste,sweetness,2,1.00
+,,2017_ECOVITI_MOUR_INOBIO,taste,sweetness,2,NaN
+,,2017_ECOVITI_MOUR_IPM50,taste,balanced,1,1.00
+,,2017_ECOVITI_MOUR_INOBIO,taste,balanced,1,NaN
+,,2017_ECOVITI_MOUR_IPM50,taste,aromatic,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,taste,aromatic,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,taste,dilute,2,0.50
+,,2017_ECOVITI_MOUR_INOBIO,taste,dilute,2,0.50
+,,2017_ECOVITI_MOUR_IPM50,taste,acid,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,taste,acid,1,1.00
+,,2017_ECOVITI_MOUR_IPM50,taste,ink,1,NaN
+,,2017_ECOVITI_MOUR_INOBIO,taste,ink,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,visual,veryLightYellowWithGreenSparkles,7,0.57
+sandySilty,57,2017_VDQA_G9_57_B,visual,veryLightYellowWithGreenSparkles,7,0.43
+sandySilty,57,2017_VDQA_G5_57_B,visual,alsmostColourless,2,NaN
+sandySilty,57,2017_VDQA_G9_57_B,visual,alsmostColourless,2,1.00
+sandySilty,57,2017_VDQA_G5_57_B,visual,strawYellowGoldYellow,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,visual,strawYellowGoldYellow,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,visual,turbid,8,NaN
+sandySilty,57,2017_VDQA_G9_57_B,visual,turbid,8,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,fruity,5,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,fruity,5,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,flowery,2,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,flowery,2,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,citrusFruit,2,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,citrusFruit,2,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,mineral,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,mineral,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,fermentationAroma,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,fermentationAroma,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,candy,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,candy,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,badSmell,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,badSmell,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,lemon,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,lemon,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,muscat,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,muscat,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,chimic,3,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,chimic,3,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,sulphurousAnhydric,2,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,sulphurousAnhydric,2,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,œuf rot,2,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,œuf rot,2,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,reduced,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,reduced,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,ventilated(oxidised),1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,ventilated(oxidised),1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,plastic,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,plastic,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,olfactory,mouldy,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,olfactory,mouldy,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,taste,acid,5,NaN
+sandySilty,57,2017_VDQA_G9_57_B,taste,acid,5,1.00
+sandySilty,57,2017_VDQA_G5_57_B,taste,persistent,5,0.40
+sandySilty,57,2017_VDQA_G9_57_B,taste,persistent,5,0.60
+sandySilty,57,2017_VDQA_G5_57_B,taste,sweetness,4,1.00
+sandySilty,57,2017_VDQA_G9_57_B,taste,sweetness,4,0.25
+sandySilty,57,2017_VDQA_G5_57_B,taste,aromatic,4,0.25
+sandySilty,57,2017_VDQA_G9_57_B,taste,aromatic,4,0.75
+sandySilty,57,2017_VDQA_G5_57_B,taste,balanced,3,NaN
+sandySilty,57,2017_VDQA_G9_57_B,taste,balanced,3,1.00
+sandySilty,57,2017_VDQA_G5_57_B,taste,bitterness,2,0.50
+sandySilty,57,2017_VDQA_G9_57_B,taste,bitterness,2,0.50
+sandySilty,57,2017_VDQA_G5_57_B,taste,fat,2,1.00
+sandySilty,57,2017_VDQA_G9_57_B,taste,fat,2,NaN
+sandySilty,57,2017_VDQA_G5_57_B,taste,muscat,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,taste,muscat,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,taste,dilute,2,0.50
+sandySilty,57,2017_VDQA_G9_57_B,taste,dilute,2,0.50
+sandySilty,57,2017_VDQA_G5_57_B,taste,alcohol,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,taste,alcohol,1,1.00
+sandySilty,57,2017_VDQA_G5_57_B,taste,mouldy,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,taste,mouldy,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,taste,reduced,1,1.00
+sandySilty,57,2017_VDQA_G9_57_B,taste,reduced,1,NaN
+sandySilty,57,2017_VDQA_G5_57_B,taste,fermentation,1,NaN
+sandySilty,57,2017_VDQA_G9_57_B,taste,fermentation,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_NI,visual,veryLightYellowWithGreenSparkles,9,0.11
+sandySilty,55,2017_IRRIALT’EAU_A1,visual,veryLightYellowWithGreenSparkles,9,0.56
+sandySilty,55,2017_IRRIALT’EAU_A2,visual,veryLightYellowWithGreenSparkles,9,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,visual,veryLightYellowWithGreenSparkles,9,0.11
+sandySilty,55,2017_IRRIALT’EAU_C2,visual,veryLightYellowWithGreenSparkles,9,0.78
+sandySilty,55,2017_IRRIALT’EAU_NI,visual,strawYellowGoldYellow,6,0.83
+sandySilty,55,2017_IRRIALT’EAU_A1,visual,strawYellowGoldYellow,6,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,visual,strawYellowGoldYellow,6,0.50
+sandySilty,55,2017_IRRIALT’EAU_C1,visual,strawYellowGoldYellow,6,0.17
+sandySilty,55,2017_IRRIALT’EAU_C2,visual,strawYellowGoldYellow,6,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,visual,turbid,8,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,visual,turbid,8,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,visual,turbid,8,0.88
+sandySilty,55,2017_IRRIALT’EAU_C1,visual,turbid,8,1.00
+sandySilty,55,2017_IRRIALT’EAU_C2,visual,turbid,8,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,visual,opaque,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,visual,opaque,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,visual,opaque,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_C1,visual,opaque,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,visual,opaque,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,flowery,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,flowery,7,0.43
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,flowery,7,0.29
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,flowery,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,flowery,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,fruity,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,fruity,7,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,fruity,7,0.29
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,fruity,7,0.43
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,fruity,7,0.71
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,fermentationAroma,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,fermentationAroma,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,fermentationAroma,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,amylic,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,amylic,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,amylic,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,amylic,3,1.00
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,amylic,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,candy,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,candy,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,candy,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,candy,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,candy,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,vegetal,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,vegetal,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,vegetal,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,vegetal,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,vegetal,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,apple,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,apple,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,apple,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,apple,2,1.00
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,apple,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,mineral,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,mineral,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,mineral,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,mineral,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,mineral,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,milky,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,milky,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,milky,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,milky,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,milky,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,citrusFruit,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,citrusFruit,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,citrusFruit,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,citrusFruit,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,citrusFruit,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,paper,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,paper,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,paper,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,paper,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,paper,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,ascent,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,ascent,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,ascent,2,1.00
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,ascent,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,ascent,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,mouldy,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,mouldy,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,mouldy,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,mouldy,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,mouldy,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_NI,olfactory,sulphurousAnhydric,2,1.00
+sandySilty,55,2017_IRRIALT’EAU_A1,olfactory,sulphurousAnhydric,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_A2,olfactory,sulphurousAnhydric,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,olfactory,sulphurousAnhydric,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,olfactory,sulphurousAnhydric,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,bitterness,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,bitterness,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,bitterness,7,0.57
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,bitterness,7,0.57
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,bitterness,7,0.14
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,acid,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,acid,5,0.20
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,acid,5,0.20
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,acid,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,acid,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,fat,5,0.40
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,fat,5,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,fat,5,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,fat,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,fat,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,balanced,5,0.40
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,balanced,5,0.60
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,balanced,5,0.40
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,balanced,5,0.40
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,balanced,5,0.80
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,persistent,4,0.50
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,persistent,4,0.50
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,persistent,4,0.50
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,persistent,4,0.75
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,persistent,4,0.50
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,sweetness,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,sweetness,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,sweetness,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,sweetness,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,sweetness,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,aromatic,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,aromatic,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,aromatic,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,aromatic,2,1.00
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,aromatic,2,0.50
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,astringent,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,astringent,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,astringent,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,astringent,1,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,astringent,1,1.00
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,alcohol,6,0.50
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,alcohol,6,0.50
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,alcohol,6,0.33
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,alcohol,6,0.17
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,alcohol,6,0.17
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,acid,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,acid,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,acid,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,acid,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,acid,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,bitterness,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,bitterness,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,bitterness,3,0.67
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,bitterness,3,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,bitterness,3,0.33
+sandySilty,55,2017_IRRIALT’EAU_NI,taste,dilute,2,1.00
+sandySilty,55,2017_IRRIALT’EAU_A1,taste,dilute,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_A2,taste,dilute,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C1,taste,dilute,2,NaN
+sandySilty,55,2017_IRRIALT’EAU_C2,taste,dilute,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,veryLightYellowWithGreenSparkles,9,0.56
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,veryLightYellowWithGreenSparkles,9,0.56
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,veryLightYellowWithGreenSparkles,9,0.67
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,veryLightYellowWithGreenSparkles,9,0.11
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,veryLightYellowWithGreenSparkles,9,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,strawYellowGoldYellow,7,0.57
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,strawYellowGoldYellow,7,0.29
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,strawYellowGoldYellow,7,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,strawYellowGoldYellow,7,0.57
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,strawYellowGoldYellow,7,0.86
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,alsmostColourless,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,alsmostColourless,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,alsmostColourless,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,alsmostColourless,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,alsmostColourless,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,opaque,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,opaque,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,opaque,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,opaque,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,opaque,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,turbid,8,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,turbid,8,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,turbid,8,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,turbid,8,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,turbid,8,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,toastedBred,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,toastedBred,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,toastedBred,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,toastedBred,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,toastedBred,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,visual,quince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,visual,quince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,visual,quince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,visual,quince,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,visual,quince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,fruity,7,0.43
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,fruity,7,0.14
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,fruity,7,0.29
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,fruity,7,0.29
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,fruity,7,0.57
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,candy,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,candy,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,candy,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,candy,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,candy,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,flowery,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,flowery,3,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,flowery,3,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,flowery,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,flowery,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,mineral,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,mineral,3,0.67
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,mineral,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,mineral,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,mineral,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,fermentationAroma,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,amylic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,amylic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,amylic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,amylic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,amylic,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,vegetal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,vegetal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,vegetal,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,vegetal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,vegetal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,milky,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,milky,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,milky,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,milky,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,milky,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,anise,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,anise,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,anise,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,anise,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,anise,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,stewedQuince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,stewedQuince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,stewedQuince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,stewedQuince,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,stewedQuince,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,pear,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,reduced,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,reduced,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,reduced,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,reduced,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,reduced,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,ventilated (oxidised),2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,ventilated (oxidised),2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,ventilated (oxidised),2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,ventilated (oxidised),2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,ventilated (oxidised),2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,ascent,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,ascent,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,ascent,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,ascent,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,ascent,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,plastic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,plastic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,plastic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,plastic,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,plastic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,chimic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,chimic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,chimic,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,chimic,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,chimic,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,mouldy,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,mouldy,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,mouldy,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,mouldy,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,mouldy,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,animal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,animal,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,animal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,animal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,animal,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,paper,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,olfactory,sulphurousAnhydric,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,olfactory,sulphurousAnhydric,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,olfactory,sulphurousAnhydric,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,olfactory,sulphurousAnhydric,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,olfactory,sulphurousAnhydric,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,balanced,6,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,balanced,6,0.17
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,balanced,6,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,balanced,6,0.17
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,balanced,6,0.17
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,fat,5,0.20
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,fat,5,0.20
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,fat,5,0.40
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,fat,5,0.20
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,fat,5,0.80
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,acid,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,acid,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,acid,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,acid,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,acid,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,bitterness,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,bitterness,4,0.75
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,bitterness,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,bitterness,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,bitterness,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,aromatic,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,aromatic,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,aromatic,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,aromatic,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,aromatic,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,sweetness,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,sweetness,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,sweetness,3,0.67
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,sweetness,3,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,sweetness,3,0.67
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,persistent,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,persistent,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,persistent,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,persistent,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,persistent,3,0.33
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,astringent,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,astringent,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,astringent,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,astringent,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,astringent,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,empyreumatic,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,empyreumatic,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,empyreumatic,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,empyreumatic,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,empyreumatic,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,pear,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,pear,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,alcohol,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,alcohol,4,0.75
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,alcohol,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,alcohol,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,alcohol,4,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,dilute,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,dilute,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,dilute,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,dilute,4,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,dilute,4,0.25
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,acid,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,acid,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,acid,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,acid,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,acid,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,bitterness,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,bitterness,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,bitterness,2,0.50
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,bitterness,2,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,bitterness,2,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,blottingPaper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,blottingPaper,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,blottingPaper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,blottingPaper,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,blottingPaper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,taste,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,taste,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,taste,paper,1,NaN
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,taste,paper,1,1.00
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,taste,paper,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,visual,alsmostColourless,6,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,visual,alsmostColourless,6,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,visual,alsmostColourless,6,0.83
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,visual,alsmostColourless,6,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,visual,veryLightYellowWithGreenSparkles,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,visual,veryLightYellowWithGreenSparkles,4,0.75
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,visual,veryLightYellowWithGreenSparkles,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,visual,veryLightYellowWithGreenSparkles,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,visual,clear,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,visual,clear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,visual,clear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,visual,clear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,visual,pinky,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,visual,pinky,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,visual,pinky,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,visual,pinky,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,fruity,5,0.20
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,fruity,5,0.60
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,fruity,5,0.40
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,fruity,5,0.20
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,flowery,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,flowery,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,flowery,4,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,flowery,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,mineral,4,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,mineral,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,mineral,4,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,mineral,4,0.75
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,candy,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,candy,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,candy,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,candy,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,fermentationAroma,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,fermentationAroma,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,fermentationAroma,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,fermentationAroma,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,roasted,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,roasted,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,roasted,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,roasted,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,vegetal,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,amylic,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,stewedFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,stewedFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,stewedFruit,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,stewedFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,thiols,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,thiols,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,thiols,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,thiols,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,ciderApple,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,apple,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,apple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,apple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,apple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,agrume,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,agrume,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,agrume,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,agrume,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,muscat,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,muscat,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,muscat,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,muscat,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,ventilated (oxidised),6,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,ventilated (oxidised),6,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,ventilated (oxidised),6,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,ventilated (oxidised),6,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,reduced,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,reduced,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,reduced,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,reduced,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,sulphurousAnhydric,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,sulphurousAnhydric,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,sulphurousAnhydric,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,sulphurousAnhydric,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,ascent,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,ascent,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,ascent,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,ascent,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,rubber,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,rubber,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,rubber,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,rubber,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,paper,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,paper,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,paper,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,paper,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,olfactory,chimic,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,acid,7,0.57
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,acid,7,0.43
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,acid,7,0.29
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,acid,7,0.43
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,balanced,6,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,balanced,6,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,balanced,6,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,balanced,6,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,astringent,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,astringent,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,astringent,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,astringent,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,aromatic,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,aromatic,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,aromatic,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,aromatic,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,bitterness,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,bitterness,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,bitterness,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,bitterness,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,fat,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,fat,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,fat,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,fat,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,persistent,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,persistent,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,persistent,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,persistent,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,greenApple,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,greenApple,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,greenApple,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,greenApple,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,sweetness,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,sweetness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,sweetness,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,sweetness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,ciderApple,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,ciderApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,silex pierre a fusil,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,silex pierre a fusil,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,silex pierre a fusil,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,silex pierre a fusil,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,pear,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,citrusFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,citrusFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,citrusFruit,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,citrusFruit,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,fermentationAroma,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,fermentationAroma,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,fermentationAroma,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,fermentationAroma,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,co2,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,co2,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,co2,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,co2,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,dilute,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,dilute,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,dilute,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,dilute,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,alcohol,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,alcohol,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,alcohol,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,alcohol,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,bitterness,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,taste,chardApple,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,taste,chardApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,taste,chardApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,taste,chardApple,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,visual,veryLightYellowWithGreenSparkles,8,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,visual,veryLightYellowWithGreenSparkles,8,0.38
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,visual,veryLightYellowWithGreenSparkles,8,0.75
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,visual,veryLightYellowWithGreenSparkles,8,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,visual,strawYellowGoldYellow,8,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,visual,strawYellowGoldYellow,8,0.12
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,visual,strawYellowGoldYellow,8,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,visual,strawYellowGoldYellow,8,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,visual,alsmostColourless,4,0.75
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,visual,alsmostColourless,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,visual,alsmostColourless,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,visual,alsmostColourless,4,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,visual,opaque,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,visual,opaque,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,visual,opaque,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,visual,opaque,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,visual,turbid,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,visual,turbid,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,visual,turbid,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,visual,turbid,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,fruity,6,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,fruity,6,0.17
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,fruity,6,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,fruity,6,0.17
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,mineral,4,0.25
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,mineral,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,mineral,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,mineral,4,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,flowery,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,flowery,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,flowery,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,flowery,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,apple,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,apple,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,apple,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,apple,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,fermentationAroma,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,fermentationAroma,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,fermentationAroma,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,fermentationAroma,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,milky,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,milky,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,milky,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,milky,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,candy,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,candy,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,candy,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,candy,2,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,vegetal,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,vegetal,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,amylic,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,amylic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,pear,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,pear,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,caramel,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,ventilated (oxidised),3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,ventilated (oxidised),3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,ventilated (oxidised),3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,reduced,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,reduced,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,reduced,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,reduced,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,chimic,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,chimic,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,mouldy,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,mouldy,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,mouldy,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,mouldy,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,olfactory,apple cuite,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,olfactory,apple cuite,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,olfactory,apple cuite,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,olfactory,apple cuite,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,fat,5,0.40
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,fat,5,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,fat,5,0.80
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,fat,5,0.40
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,acid,4,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,acid,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,acid,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,acid,4,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,bitterness,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,bitterness,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,bitterness,3,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,bitterness,3,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,astringent,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,astringent,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,astringent,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,astringent,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,balanced,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,balanced,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,balanced,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,balanced,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,persistent,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,persistent,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,persistent,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,persistent,3,0.67
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,sweetness,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,sweetness,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,sweetness,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,sweetness,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,aromatic,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,aromatic,2,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,aromatic,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,aromatic,2,0.50
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,mineral,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,mineral,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,mineral,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,mineral,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,alcohol,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,alcohol,3,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,alcohol,3,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,alcohol,3,0.33
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,dilute,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,dilute,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,dilute,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,dilute,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,bitterness,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,bitterness,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,caramel,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,caramel,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,taste,oxidised,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,taste,oxidised,1,1.00
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,taste,oxidised,1,NaN
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,taste,oxidised,1,NaN

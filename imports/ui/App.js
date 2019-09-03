@@ -6,11 +6,13 @@ import Radarchart  from '/imports/ui/radarchart/radarchart.js'
 import Scatterplot from '/imports/ui/scatterplot/scatterplot.js'
 import Piechart    from '/imports/ui/piechart/piechart.js'
 import Timeseries  from '/imports/ui/timeseries/timeseries.js'
+import monthConversions from '/imports/MonthMap.json';
 
 import _ from 'lodash'
 const Fragment = React.Fragment;
 /* Import React Components */
 import { Climate } from '/imports/api/tasks.js';
+import { SensoryAnalysis } from "/imports/api/tasks";
 
 class App extends Component {
 
@@ -19,82 +21,140 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props.MeanTemperature);
-    //console.log(this.props.Wind);
+    // let maxTemperatureWithYear = (this.props.MaxTempPerYear).year;
+    //
+    // _.forEach((this.props.MaxTempPerYear).year, function (value, i) {
+    //   console.log(maxTemperatureWithYear[i]);
+    // });
+
     const BarData = {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-      datasets: [{
-        label: 'My First dataset',
+      labels: (this.props.WindSpeed).month,
+      // labels: ["1900", "1950", "1999", "2050"],
+      datasets: [
+      //     {
+      //   label: "Europe",
+      //   type: "bar",
+      //   backgroundColor: "green",
+      //   data: [408,547,675,734],
+      // }, {
+      //   label: "Africa",
+      //   type: "bar",
+      //   backgroundColor: "red",
+      //   backgroundColorHover: "#3e95cd",
+      //   data: [133,221,783,2478]
+      // }
+          {
+        label: 'Wind speed (m/s)',
         backgroundColor: 'rgba(255,99,132,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [65, 59, 80, 81, 56, 55, 40]
-      }]
+        data: (this.props.WindSpeed).meanSpeed
+      }
+      ]
     };
+
     const RadarData = {
-      labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+      labels: Object.keys(this.props.VisualSensoryFlavours),
       datasets: [
         {
-          label: 'My First dataset',
-          backgroundColor: 'rgba(179,181,198,0.2)',
-          borderColor: 'rgba(179,181,198,1)',
-          pointBackgroundColor: 'rgba(179,181,198,1)',
+          label: 'Visual',
+          backgroundColor: 'rgba(255,99,132,0.4)',
+          borderColor: '#FF6384',
+          pointBackgroundColor: '#FF6384',
           pointBorderColor: '#fff',
           pointHoverBackgroundColor: '#fff',
-          pointHoverBorderColor: 'rgba(179,181,198,1)',
-          data: [65, 59, 90, 81, 56, 55, 40]
+          pointHoverBorderColor: '#FF6384',
+          data: Object.values(this.props.VisualSensoryFlavours)
         },
         {
-          label: 'My Second dataset',
-          backgroundColor: 'rgba(255,99,132,0.2)',
-          borderColor: 'rgba(255,99,132,1)',
-          pointBackgroundColor: 'rgba(255,99,132,1)',
+          label: 'Olfactory',
+          backgroundColor: 'rgba(54,162,235,0.4)',
+          borderColor: '#36A2EB',
+          pointBackgroundColor: '#36A2EB',
           pointBorderColor: '#fff',
           pointHoverBackgroundColor: '#fff',
-          pointHoverBorderColor: 'rgba(255,99,132,1)',
-          data: [28, 48, 40, 19, 96, 27, 100]
+          pointHoverBorderColor: '#36A2EB',
+          data: Object.values(this.props.OlfactorySensoryFlavours)
+        },
+        {
+          label: 'Taste',
+          backgroundColor: 'rgba(255,206,86,0.4)',
+          borderColor: '#FFCE56',
+          pointBackgroundColor: '#FFCE56',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: '#FFCE56',
+          data: Object.values(this.props.TasteSensoryFlavours)
         }
       ]
     };
 
+
+    let evaAndTempArray2017 = [];
+    let evaAndTempArray2018 = [];
+    let penmanEva = this.props.EvaAndTemp.penmanEvapotranspiration;
+    let meanTemp = this.props.EvaAndTemp.meanTemperature;
+    let year = this.props.EvaAndTemp.year;
+    _.forEach(this.props.EvaAndTemp.NMH_POSTE, function (value, i) {
+      if(year[i] == 2017){
+        evaAndTempArray2017.push(
+            {
+              x: penmanEva[i],
+              y: meanTemp[i]
+            }
+        );
+      }else if(year[i] == 2018)
+      {
+        evaAndTempArray2018.push(
+            {
+              x: penmanEva[i],
+              y: meanTemp[i]
+            }
+        );
+      }
+
+    });
     const ScatterData = {
       labels: ['Scatter'],
       datasets: [
         {
-          label: 'My First dataset',
+          label: '2018',
           fill: false,
-          backgroundColor: 'rgba(75,192,192,0.4)',
-          pointBorderColor: 'rgba(75,192,192,1)',
+          backgroundColor: '#FF6133',
+          pointBorderColor: '#FF6133',
           pointBackgroundColor: '#fff',
           pointBorderWidth: 1,
           pointHoverRadius: 5,
-          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-          pointHoverBorderColor: 'rgba(220,220,220,1)',
+          pointHoverBackgroundColor: '#FF6133',
+          pointHoverBorderColor: '#FF6133',
           pointHoverBorderWidth: 2,
           pointRadius: 1,
           pointHitRadius: 10,
-          data: [
-            { x: 65, y: 75 },
-            { x: 59, y: 49 },
-            { x: 80, y: 90 },
-            { x: 81, y: 29 },
-            { x: 56, y: 36 },
-            { x: 55, y: 25 },
-            { x: 40, y: 18 },
-          ]
+          data:evaAndTempArray2018
+        },
+        {
+          label: '2017',
+          fill: false,
+          backgroundColor: '#C733FF',
+          pointBorderColor: '#C733FF',
+          pointBackgroundColor: '#fff',
+          pointBorderWidth: 1,
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: '#C733FF',
+          pointHoverBorderColor: '#C733FF',
+          pointHoverBorderWidth: 2,
+          pointRadius: 1,
+          pointHitRadius: 10,
+          data:evaAndTempArray2017
         }
       ]
     };
     const PieData = {
-      labels: [
-        'Red',
-        'Green',
-        'Yellow'
-      ],
+      labels: Object.keys(this.props.FlavorTypes),
       datasets: [{
-        data: [300, 50, 100],
+        data: Object.values(this.props.FlavorTypes),
         backgroundColor: [
           '#FF6384',
           '#36A2EB',
@@ -109,14 +169,14 @@ class App extends Component {
     };
 
     const TimeData = {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      labels: (this.props.WindSpeed).month,
       datasets: [
         {
-          label: 'My First dataset',
+          label: 'Mean wind speed (m/s)',
           fill: false,
           lineTension: 0.1,
-          backgroundColor: 'rgba(75,192,192,0.4)',
-          borderColor: 'rgba(75,192,192,1)',
+          backgroundColor: '#C733FF',
+          borderColor: '#C733FF',
           borderCapStyle: 'butt',
           borderDash: [],
           borderDashOffset: 0.0,
@@ -130,7 +190,28 @@ class App extends Component {
           pointHoverBorderWidth: 2,
           pointRadius: 1,
           pointHitRadius: 10,
-          data: [65, 59, 80, 81, 56, 55, 40]
+          data: (this.props.WindSpeed).meanSpeed
+        },
+        {
+          label: 'Maximum wind speed (m/s)',
+          fill: false,
+          lineTension: 0.1,
+          backgroundColor: '#33D1FF',
+          borderColor: '#33D1FF',
+          borderCapStyle: 'butt',
+          borderDash: [],
+          borderDashOffset: 0.0,
+          borderJoinStyle: 'miter',
+          pointBorderColor: 'rgba(75,192,192,1)',
+          pointBackgroundColor: '#fff',
+          pointBorderWidth: 1,
+          pointHoverRadius: 5,
+          pointHoverBackgroundColor: 'rgba(75,192,192,1)',
+          pointHoverBorderColor: 'rgba(220,220,220,1)',
+          pointHoverBorderWidth: 2,
+          pointRadius: 1,
+          pointHitRadius: 10,
+          data: (this.props.WindSpeed).maxSpeed
         }
       ]
     };
@@ -138,11 +219,11 @@ class App extends Component {
       <Fragment>
       <h1>Big Data Grapes Dashboard</h1>
       <div className="main-container">
-        <Barchart    title="Wind"        data={BarData}     />
-        <Radarchart  title="Temperature" data={RadarData}   />
-        <Scatterplot title="Humidity"    data={ScatterData} />
-        <Piechart    title="Soil"        data={PieData}     />
-        <Timeseries  title="Something"   data={TimeData}    />
+        <Piechart    title="Sensory Flavor Types"        data={PieData}     />
+        <Radarchart  title="Sensory Flavors" data={RadarData}   />
+        <Scatterplot title="Temperature vs Evaporation"    data={ScatterData} />
+        <Timeseries  title="Wind Speed"   data={TimeData}    />
+        <Barchart    title="Wind Speed"  data={BarData}     />
       </div>
     </Fragment>
     );
@@ -150,10 +231,50 @@ class App extends Component {
   } // end of class
 
   export default withTracker((props) => {
+    // let year2017 = Climate.find({YEAR: 2017}).fetch(); //365
+    let year2018 = Climate.find({YEAR: 2018}).fetch(); // 330
+    let climateData = Climate.find({$or:[{YEAR: 2018},{YEAR: 2017}]}).fetch();
+
+    let windSpeed = {
+      meanSpeed: _.map(year2018, "S"),
+      maxSpeed: _.map(year2018, "SX"),
+      month: _.map(year2018, "MONTH"),
+      day: _.map(year2018, "DAY")
+    }
+
+    // let periodWithHumidity = {
+    //   humidity40: _.map(year2018, "H4"),
+    //   humidity80: _.map(year2018, "H8"),
+    //   humidity90: _.map(year2018, "H9"),
+    //   month: _.map(year2018, "MONTH"),
+    //   day: _.map(year2018, "DAY")
+    // }
+
+    let evaAndTemp = {
+      penmanEvapotranspiration:_.map(climateData, "PETP"),
+      meanTemperature:_.map(climateData, "MT"),
+      NMH_POSTE:_.map(climateData, "NMH_POSTE"),
+      year:_.map(climateData, "YEAR")
+    }
+
+    let maxTemp = {
+      maxTemperature: _.map(Climate.find({}).fetch(), "XT"),
+      year:_.map(climateData, "YEAR")
+    }
+
+// console.log(_.countBy(Climate.find({}).fetch(), "YEAR"))
+//     console.log(Math.max(...maxTemp.maxTemperature));
+
     return {
-      Wind:        Climate.find({}).fetch(),
-      MeanTemperature: _.map(Climate.find({YEAR: 2018}).fetch(), "S"),
-      Humidity:    Climate.find({}).fetch(),
-      Soil:        Climate.find({}).fetch(),
+      WindSpeed: windSpeed,
+      EvaAndTemp: evaAndTemp,
+      FlavorTypes:_.countBy(SensoryAnalysis.find({}).fetch(), "flavorType"),
+      VisualSensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "visual"}).fetch(), "sensoryFlavor"),
+      OlfactorySensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "olfactory"}).fetch(), "sensoryFlavor"),
+      TasteSensoryFlavours:_.countBy(SensoryAnalysis.find({flavorType: "taste"}).fetch(), "sensoryFlavor"),
+      MaxTempPerYear: maxTemp
+
+      // Humidity: periodWithHumidity,
+      // Soil:        Climate.find({}).fetch(),
     };
   })(App);

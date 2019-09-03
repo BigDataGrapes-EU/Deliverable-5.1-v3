@@ -4,6 +4,7 @@ import { Mongo } from 'meteor/mongo';
 import { check, Match} from 'meteor/check';
 
 export const Climate = new Mongo.Collection("climate");
+export const SensoryAnalysis = new Mongo.Collection("sensoryAnalysis");
 
 Meteor.methods({
   // 'load.data'(vac){

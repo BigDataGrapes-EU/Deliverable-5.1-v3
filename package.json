@@ -10,6 +10,7 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "chart.js": "^2.8.0",
+    "chartjs-plugin-zoom": "^0.7.3",
     "lodash": "^4.17.15",
     "meteor-node-stubs": "^0.4.1",
     "react": "^16.9.0",
