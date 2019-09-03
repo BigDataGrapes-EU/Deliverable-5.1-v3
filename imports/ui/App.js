@@ -44,7 +44,7 @@ class App extends Component {
       //   data: [133,221,783,2478]
       // }
           {
-        label: 'Data points collected per year',
+        label: 'Data points available per year',
         backgroundColor: 'rgba(255,99,132,0.2)',
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
@@ -220,10 +220,10 @@ class App extends Component {
       <h1>Big Data Grapes Dashboard</h1>
       <div className="main-container">
         <Piechart    title="Sensory Flavor Types"        data={PieData}     />
-        <Radarchart  title="Sensory Flavors" data={RadarData}   />
+        <Radarchart  title="Flavors per Each Type" data={RadarData}   />
         <Scatterplot title="Temperature vs Evaporation"    data={ScatterData} />
         <Timeseries  title="Wind Speed"   data={TimeData}    />
-        <Barchart    title="Wind Speed"  data={BarData}     />
+        <Barchart    title="Climate Dataset"  data={BarData}     />
       </div>
     </Fragment>
     );
