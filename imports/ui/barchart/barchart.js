@@ -30,22 +30,22 @@ class Barchart extends React.Component {
               }
               // stacked: true
             }]
+          },
+          pan: {
+            enabled: true,
+            mode: "x",
+            speed: 10,
+            threshold: 10
+          },
+          zoom: {
+            enabled: true,
+            drag: false,
+            mode: "x",
+            limits: {
+              max: 10,
+              min: 0.5
+            }
           }
-          // pan: {
-          //   enabled: true,
-          //   mode: "x",
-          //   speed: 10,
-          //   threshold: 10
-          // },
-          // zoom: {
-          //   enabled: true,
-          //   drag: false,
-          //   mode: "x",
-          //   limits: {
-          //     max: 10,
-          //     min: 0.5
-          //   }
-          // }
         }} />
       </div>
     );

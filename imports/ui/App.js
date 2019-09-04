@@ -29,6 +29,7 @@ class App extends Component {
 
     const BarData = {
       labels: Object.keys(this.props.DataPointsPerYear),
+      //   labels: (this.props.WindSpeed).month,
       // labels: ["1900", "1950", "1999", "2050"],
       datasets: [
       //     {
@@ -51,6 +52,7 @@ class App extends Component {
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
         data: Object.values(this.props.DataPointsPerYear)
+              // data: (this.props.WindSpeed).meanSpeed
       }
       ]
     };
