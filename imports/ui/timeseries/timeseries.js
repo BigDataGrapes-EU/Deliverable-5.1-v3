@@ -41,24 +41,41 @@ class Timeseries extends React.Component {
     return(
       <div className="container">
         <h1>{this.props.title}</h1>
-        <Line data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true, plugins:{
-            zoom: {
-              pan: {
-                enabled: false,
-                mode: 'xy'
-              },
-              zoom: {
-                enabled: true,
-                drag: true,
-                // drag: {
-                // 	 borderColor: 'rgba(225,225,225,0.3)'
-                // 	 borderWidth: 5,
-                // 	 backgroundColor: 'rgb(225,225,225)'
-                // },
-                mode: 'x'
-              }
+        <Line data={this.props.data} width={100} height={50} options={
+          { maintainAspectRatio: true,
+            scales: {
+              xAxes: [{
+                scaleLabel:{
+                  display: true,
+                  labelString: "Months"
+                }
+                // stacked: true
+              }],
+              yAxes: [{
+                scaleLabel:{
+                  display: true,
+                  labelString: "Wind speed (m/s)"
+                }
+                // stacked: true
+              }]
             }
-          }}} />
+            // pan: {
+            //   enabled: true,
+            //   mode: "x",
+            //   speed: 10,
+            //   threshold: 10
+            // },
+            // zoom: {
+            //   enabled: true,
+            //   drag: false,
+            //   mode: "x",
+            //   limits: {
+            //     max: 10,
+            //     min: 0.5
+            //   }
+            // }
+          }
+        } />
       </div>
     );
 

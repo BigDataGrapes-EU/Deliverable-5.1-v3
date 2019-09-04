@@ -14,14 +14,39 @@ class Barchart extends React.Component {
     return(
       <div className="container">
         <h1>{this.props.title}</h1>
-        <Bar data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true,scales: {
+        <Bar data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true,
+          scales: {
             xAxes: [{
-              stacked: true
+              scaleLabel:{
+                display: true,
+                labelString: "Years"
+              }
+              // stacked: true
             }],
             yAxes: [{
-              stacked: true
+              scaleLabel:{
+                display: true,
+                labelString: "Available data points"
+              }
+              // stacked: true
             }]
-          } }} />
+          }
+          // pan: {
+          //   enabled: true,
+          //   mode: "x",
+          //   speed: 10,
+          //   threshold: 10
+          // },
+          // zoom: {
+          //   enabled: true,
+          //   drag: false,
+          //   mode: "x",
+          //   limits: {
+          //     max: 10,
+          //     min: 0.5
+          //   }
+          // }
+        }} />
       </div>
     );
 

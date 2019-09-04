@@ -14,7 +14,24 @@ class Scatterplot extends React.Component {
     return(
       <div className="container">
         <h1>{this.props.title}</h1>
-        <Scatter data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true }} />
+        <Scatter data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true,
+          scales: {
+            xAxes: [{
+              scaleLabel:{
+                display: true,
+                labelString: "Penman evapotranspiration (mm)"
+              }
+              // stacked: true
+            }],
+            yAxes: [{
+              scaleLabel:{
+                display: true,
+                labelString: "Mean temperature ('C)"
+              }
+              // stacked: true
+            }]
+          }
+        }} />
       </div>
     );
 
