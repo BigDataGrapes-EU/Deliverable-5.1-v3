@@ -7,6 +7,7 @@ import Scatterplot from '/imports/ui/scatterplot/scatterplot.js'
 import Piechart    from '/imports/ui/piechart/piechart.js'
 import Timeseries  from '/imports/ui/timeseries/timeseries.js'
 import monthConversions from '/imports/MonthMap.json';
+const { Map: LeafletMap } = window.ReactLeaflet
 
 import _ from 'lodash'
 const Fragment = React.Fragment;
