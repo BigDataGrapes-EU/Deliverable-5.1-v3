@@ -6,8 +6,12 @@ import Radarchart  from '/imports/ui/radarchart/radarchart.js'
 import Scatterplot from '/imports/ui/scatterplot/scatterplot.js'
 import Piechart    from '/imports/ui/piechart/piechart.js'
 import Timeseries  from '/imports/ui/timeseries/timeseries.js'
-import monthConversions from '/imports/MonthMap.json';
-const { Map: LeafletMap } = window.ReactLeaflet
+import monthConversions from '/imports/MonthMap.json'
+
+
+// import Leaflet from 'leaflet'
+// import LeafletMap from '/imports/ui/LeafletMap/LeafletMap.js'
+// import { Map, TileLayer, Marker, Popup } from 'leaflet'
 
 import _ from 'lodash'
 const Fragment = React.Fragment;
@@ -15,13 +19,28 @@ const Fragment = React.Fragment;
 import { Climate } from '/imports/api/tasks.js';
 import { SensoryAnalysis } from "/imports/api/tasks";
 
+// Leaflet.Icon.Default.imagePath =
+//     '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/images/'
+// const { Map: LeafletMap, TileLayer, Marker, Popup } = window.ReactLeaflet
+
+
 class App extends Component {
 
   constructor(props) {
     super(props);
+
+    this.state = {
+      lat: 51.505,
+      lng: -0.09,
+      zoom: 13
+    }
+
   }
 
   render() {
+
+    const position = [this.state.lat, this.state.lng];
+
     // let maxTemperatureWithYear = (this.props.MaxTempPerYear).year;
     //
     // _.forEach((this.props.MaxTempPerYear).year, function (value, i) {
@@ -222,11 +241,25 @@ class App extends Component {
       <Fragment>
       <h1>Big Data Grapes Dashboard</h1>
       <div className="main-container">
+        {/*<LeafletMap/>*/}
         <Piechart    title="Sensory Flavor Types"        data={PieData}     />
         <Radarchart  title="Flavors per Each Type" data={RadarData}   />
         <Scatterplot title="Temperature vs Evaporation"    data={ScatterData} />
         <Timeseries  title="Wind Speed"   data={TimeData}    />
         <Barchart    title="Climate Dataset"  data={BarData}     />
+
+        {/*<LeafletMap center={position} zoom={this.state.zoom}>*/}
+        {/*  <TileLayer*/}
+        {/*      attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'*/}
+        {/*      url='https://{s}.tile.osm.org/{z}/{x}/{y}.png'*/}
+        {/*  />*/}
+        {/*  <Marker position={position}>*/}
+        {/*    <Popup>*/}
+        {/*      A pretty CSS3 popup. <br/> Easily customizable.*/}
+        {/*    </Popup>*/}
+        {/*  </Marker>*/}
+        {/*</LeafletMap>*/}
+
       </div>
     </Fragment>
     );
@@ -246,11 +279,11 @@ class App extends Component {
     }
 
     // let periodWithHumidity = {
-    //   humidity40: _.map(year2018, "H4"),
-    //   humidity80: _.map(year2018, "H8"),
-    //   humidity90: _.map(year2018, "H9"),
-    //   month: _.map(year2018, "MONTH"),
-    //   day: _.map(year2018, "DAY")
+    //   humidity40: _.LeafletMap(year2018, "H4"),
+    //   humidity80: _.LeafletMap(year2018, "H8"),
+    //   humidity90: _.LeafletMap(year2018, "H9"),
+    //   month: _.LeafletMap(year2018, "MONTH"),
+    //   day: _.LeafletMap(year2018, "DAY")
     // }
 
     let evaAndTemp = {
