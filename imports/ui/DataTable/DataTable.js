@@ -2,10 +2,10 @@ import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 import './style.css';
 
-import { Card, Icon } from 'antd';
-import {Pie} from 'react-chartjs-2';
+import { Card, Icon, Table } from 'antd';
+
 // App component - represents the whole app
-class Piechart extends React.Component {
+class DataTable extends React.Component {
 
   constructor(props) {
     super(props);
@@ -14,7 +14,7 @@ class Piechart extends React.Component {
   render() {
     return(
       <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
-        <Pie data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true }} />
+      <Table dataSource={this.props.data} columns={this.props.columns} />
       </Card>
     );
 
@@ -25,4 +25,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(Piechart);
+})(DataTable);

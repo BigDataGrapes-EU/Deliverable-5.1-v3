@@ -2,6 +2,7 @@ import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 import './style.css';
 
+import { Card, Icon } from 'antd';
 import {Scatter} from 'react-chartjs-2';
 // App component - represents the whole app
 class Scatterplot extends React.Component {
@@ -12,8 +13,7 @@ class Scatterplot extends React.Component {
 
   render() {
     return(
-      <div className="container">
-        <h1>{this.props.title}</h1>
+      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Scatter data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true,
           scales: {
             xAxes: [{
@@ -32,7 +32,7 @@ class Scatterplot extends React.Component {
             }]
           }
         }} />
-      </div>
+    </Card>
     );
 
   } // end of render

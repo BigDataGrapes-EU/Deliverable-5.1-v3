@@ -3,7 +3,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import './style.css';
 
 import {Line} from 'react-chartjs-2';
-
+import { Card, Icon } from 'antd';
 import 'chartjs-plugin-zoom';
 // import * as zoom from 'chartjs-plugin-zoom'
 
@@ -39,8 +39,7 @@ class Timeseries extends React.Component {
       // }
     }
     return(
-      <div className="container">
-        <h1>{this.props.title}</h1>
+      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Line data={this.props.data} width={100} height={50} options={
           { maintainAspectRatio: true,
             scales: {
@@ -76,7 +75,7 @@ class Timeseries extends React.Component {
             // }
           }
         } />
-      </div>
+    </Card>
     );
 
   //options={{ maintainAspectRatio: true}}

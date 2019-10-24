@@ -1,0 +1,36 @@
+.grid-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 14%;
+  cursor: pointer;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.grid-card:active {
+  background: #f1f1f1;
+}
+
+.grid-card .icon {
+  background: blue;
+}
+
+.grid-card h1 {
+  margin: 0px;
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 100;
+  color: gray;
+}
+
+.viz-chooser {
+  margin-top: 16px;
+}

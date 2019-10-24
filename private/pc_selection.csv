@@ -1,0 +1,53 @@
+soilType,plotCluster,wine,varietyName,varietyCode,olfactory_candy,olfactory_fruity,taste_acid,taste_astringent,taste_balanced,taste_bitterness,taste_dilute,taste_fat,taste_persistent,taste_sweetness,soilType_id
+sandySilty,10,2017_OXYBENNE_SAUV_EG_2_0,Sauvignon,300,0.6,0.4,0.57,0.25,0.5,0.165,0,0,1,0.25,1
+sandySilty,10,2017_OXYBENNE_SAUV_EG_3_0,Sauvignon,300,0.8,0.6,0.43,0.125,0.5,0.25,0,0.5,0,1,1
+sandySilty,10,2017_OXYBENNE_SAUV_OX_1_1,Sauvignon,300,0.6,0.6,0.71,0.875,0.25,0.335,0,0.25,0,0,1
+sandySilty,10,2017_OXYBENNE_SAUV_OX_2_0,Sauvignon,300,0,0.4,0.14,0,0.5,0.665,1,0.5,0,0,1
+sandySilty,10,2017_OXYBENNE_SAUV_OX_3_0,Sauvignon,300,0.4,0.4,0.14,0.25,0.25,0.085,1,0.5,0,0.25,1
+sandySilty,55,2017_IRRIALT’EAU_A1,Viognier,189,0,0,0.43500000000000005,0,0.6,0.07,0,0,0.5,0.33,1
+sandySilty,55,2017_IRRIALT’EAU_A2,Viognier,189,0.67,0.29,0.265,1,0.4,0.62,0,0,0.5,0.33,1
+sandySilty,55,2017_IRRIALT’EAU_C1,Viognier,189,0.33,0.43,0.3,0,0.4,0.285,0,0.6,0.75,0,1
+sandySilty,55,2017_IRRIALT’EAU_C2,Viognier,189,0.33,0.71,0.3,1,0.8,0.23500000000000001,0.5,0.6,0.5,0,1
+sandySilty,55,2017_IRRIALT’EAU_NI,Viognier,189,0.67,0.14,0.46499999999999997,0,0.4,0.07,1,0.4,0.5,0.33,1
+sandySilty,55,2017_OXYBENNE_VIO_EG_2_0,Viognier,189,0.5,0.29,0.125,0,0.17,0.25,0.5,0.2,0.33,0,1
+sandySilty,55,2017_OXYBENNE_VIO_EG_3_0,Viognier,189,0,0.57,0,0,0.17,0.75,0.25,0.8,0.33,0.67,1
+sandySilty,55,2017_OXYBENNE_VIO_OX_1_1,Viognier,189,0,0.43,0.375,0,0.5,0.125,0.5,0.2,0.33,0,1
+sandySilty,55,2017_OXYBENNE_VIO_OX_2_03_0,Viognier,189,0.25,0.14,0.75,1,0.17,0.375,0.25,0.2,0.33,0,1
+sandySilty,55,2017_OXYBENNE_VIO_OX_4_0,Viognier,189,0.25,0.29,0.375,0,0.5,0.375,0.5,0.4,0.33,0.67,1
+sandySilty,57,2017_VDQA_G14_57_Rs,INRA Montpellier 3184-1-9,6727,0,0,0.335,0,0.14,0,0,0,0,0,1
+sandySilty,57,2017_VDQA_G2_57_Rs,INRA Montpellier 3197-235,6721,0,0,0.585,0,0.14,0,0.5,0,0,0,1
+sandySiltyClay,106,2017_VITIDUR_3176_Rs,INRA Montpellier 3176-21-11,6853,0,0.29,0.085,1,0.14,0.5,0.75,0,0,0,2
+sandySiltyClay,65,2017 IRRIALT_CAR_A1,Carignan,18,0,0,0,0.67,0.5,0.125,0.25,0.33,1,0,2
+sandySiltyClay,65,2017 IRRIALT_CAR_A2,Carignan,18,0,0,0.125,0.67,0.5,0.125,0.25,0.33,1,1,2
+sandySiltyClay,65,2017 IRRIALT_CAR_C1,Carignan,18,0,0,0.5,0,0.17,0.625,0,0,0,1,2
+sandySiltyClay,65,2017 IRRIALT_CAR_C2,Carignan,18,0,0,0.375,0,0.17,0.125,0.5,0.33,0,0,2
+sandySiltyClay,65,2017 IRRIALT_CAR_NI,Carignan,18,1,1,0,0.33,0.5,0.25,0,0.67,0,1,2
+sandySiltyClay,73,2017_INERTIS_MAC_01_T0,Macabeu,46,0,0.2,0.57,0,0.33,0,0.5,0.5,1,1,2
+sandySiltyClay,73,2017_INERTIS_MAC_01_T4,Macabeu,46,0.33,0.6,0.43,0.67,0.33,0.5,0.5,0,0.5,0,2
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5A,Macabeu,46,0,0.5,1,0.67,0.67,0,0,0.4,0.33,0.5,2
+sandySiltyClay,73,2017_INERTIS_MAC_01_T5T6,Macabeu,46,0,0.17,0.5,0.33,0,0.665,1,0,0.33,0,2
+sandySiltyClay,73,2017_INERTIS_MAC_02_T0,Macabeu,46,0.67,0.4,0.29,0.33,0.33,0.25,1,0,0.5,1,2
+sandySiltyClay,73,2017_INERTIS_MAC_02_T4,Macabeu,46,0,0.2,0.43,0.33,0.67,0.75,0,1,0.5,0,2
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5A,Macabeu,46,0,0.33,0.5,0,0.67,0.5,0,0.8,0,0,2
+sandySiltyClay,73,2017_INERTIS_MAC_02_T5T6,Macabeu,46,1,0.17,0.5,0,0.33,0.5,0,0.4,0.67,0.5,2
+sandySiltyClay,81,2017_Prevox_01,Chardonnay,199,0.8,0.67,0,0,0.6,0.625,0,0.8,0,1,2
+sandySiltyClay,81,2017_Prevox_02,Chardonnay,199,0.2,0,0.6,0.835,0,0.5,0,0,0,0,2
+sandySiltyClay,81,2017_Prevox_03,Chardonnay,199,0.2,0.33,0.4,0.165,0.6,0,0,0.4,1,0,2
+sandySiltyClay,81,2017_Prevox_04,Chardonnay,199,0.2,0.33,0.4,0,0.4,0.25,1,0.6,0,0.33,2
+sandySiltyClay,85,2017_RUN ST2_02_R,INRA Montpellier 3328-168,6908,0,0.2,0.165,0.31,0.5,0.33,1,0.33,0.25,0,2
+sandySiltyClay,85,2017_RUN ST2_03_R,INRA Montpellier 3328-177,6909,1,0,0.5,0.62,0,0.33,0,0.33,0.5,1,2
+sandySiltyClay,85,2017_RUN ST2_04_R,INRA Montpellier 3328-306,6910,0,0,0.165,0.44999999999999996,0.5,0.33,0,0.33,0.5,0.5,2
+sandySiltyClay,85,2017_RUN_ST2_13_B,INRA Montpellier 3347-320,6917,0,0,0.165,1,0,0.665,1,0,0,0,2
+sandySiltyClay,85,2017_RUN_ST2_14_B,INRA Montpellier 3347-330,6911,0.5,0.5,0.6,0.165,1,0.71,0.5,0.33,0,0,2
+sandySiltyClay,85,2017_RUN_ST2_16_B,INRA Montpellier 3347-368,6919,0,1,0.8,0.165,0,0,0,0.33,0,1,2
+sandySiltyClay,85,2017_RUN_ST2_21_B,INRA Montpellier 3347-431,6921,0.25,0.5,0.7,0,0.5,0.29000000000000004,0.5,0.33,0,0,2
+siltyClay,100,2017_RESDUR_B,Floreal,6748,1,1,0.165,0,1,0.25,0,0.67,0.5,1,3
+siltyClay,106,2017_QUALIVINBIO_3160,INRA Montpellier 3160-11-3,6851,0,0.5,1,1,0,0.6,0,0,1,0,3
+siltyClay,106,2017_QUALIVINBIO_3176,INRA Montpellier 3176-21-11,6853,0,0.33,0.33,0.7,0.67,0.25,1,0,0.5,0,3
+siltyClay,106,2017_VITIDUR_3160_R,INRA Montpellier 3160-11-3,6851,1,0,0,0,1,0.1,1,1,0,1,3
+siltyClay,106,2017_VITIDUR_3160_Rs,INRA Montpellier 3160-11-3,6851,1,0.71,0.25,0,0.57,0,0,0.5,1,0.5,3
+siltyClay,106,2017_VITIDUR_3160_T,INRA Montpellier 3160-11-3,6851,0,0.5,0,0.8,0,0.8,0,0,0.5,0.33,3
+siltyClay,106,2017_VITIDUR_3176_MC,INRA Montpellier 3176-21-11,6853,0.5,1,0,0.5,0.67,0.25,0,1,0.5,0.33,3
+siltyClay,106,2017_VITIDUR_3176_R,INRA Montpellier 3176-21-11,6853,0,0,0.67,0.6,0,0.25,0,0,0,0,3
+siltyClay,106,2017_VITIDUR_3176_T,INRA Montpellier 3176-21-11,6853,1,0.33,0,0.4,0.33,1,0,0,1,1,3
+siltyClay,106,2017_VITIDUR_3176_TM,INRA Montpellier 3176-21-11,6853,0,0,0.33,0.6,0.33,1,0,0,0,0,3

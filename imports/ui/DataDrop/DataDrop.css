@@ -1,0 +1,35 @@
+.dd-content {
+  border: 1px dashed blue;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  color: #888888;
+  font-size: 14px;
+}
+
+.dd-content div {
+  width: 100%;
+  text-align: center;
+}
+
+.dd-content p {
+  margin: 0;
+  padding: 16px;
+}
+
+.file-details {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 8px;
+}
+
+.file-details h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.file-subtitle {
+  font-size: 14px;
+  color: #888888;
+}
