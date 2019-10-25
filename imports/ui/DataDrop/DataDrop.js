@@ -39,23 +39,22 @@ class DataDrop extends Component {
     let render = "";
     if(this.state.isDataReady) {
       render = <div className="file-details">
-               <h1>{this.state.fileName}</h1>
-               <div className="file-subtitle">{this.state.numRows} records - {this.state.fileSize} Mb</div>
-               </div>
-      ;
+      <h1>{this.state.fileName}</h1>
+      <div className="file-subtitle">{this.state.numRows} records - {this.state.fileSize} Mb</div>
+      </div>;
     } else {
       render = <Spin spinning={this.state.isDataLoading} tip="Loading...">
-               <Dropzone onDrop={acceptedFiles => this.processFiles(acceptedFiles)}>
-               {({getRootProps, getInputProps}) => (
-                 <section className="dd-content">
-                 <div {...getRootProps()}>
-                 <input {...getInputProps()} />
-                 <p>No data, drag and drop a CSV file here, or click to select a file.</p>
-                 </div>
-                 </section>
-               )}
-               </Dropzone>
-               </Spin>
+      <Dropzone onDrop={acceptedFiles => this.processFiles(acceptedFiles)}>
+      {({getRootProps, getInputProps}) => (
+        <section className="dd-content">
+        <div {...getRootProps()}>
+        <input {...getInputProps()} />
+        <p>No data, drag and drop a CSV file here, or click to select a file.</p>
+        </div>
+        </section>
+      )}
+      </Dropzone>
+      </Spin>
     }
     return(render);} // end of render
   } // end of class

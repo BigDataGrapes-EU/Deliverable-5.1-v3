@@ -1,6 +1,5 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
-import './style.css';
 
 import { Card, Icon, Table } from 'antd';
 
@@ -14,7 +13,7 @@ class DataTable extends React.Component {
   render() {
     return(
       <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
-      <Table dataSource={this.props.data} columns={this.props.columns} />
+      <Table dataSource={this.props.data} columns={this.props.columns} scroll={{ x: true }} />
       </Card>
     );
 

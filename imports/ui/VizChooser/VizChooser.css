@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 14%;
   cursor: pointer;
-
+  padding: 0px;
+  height: 84px;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -29,8 +29,4 @@
   margin-top: 4px;
   font-weight: 100;
   color: gray;
-}
-
-.viz-chooser {
-  margin-top: 16px;
 }

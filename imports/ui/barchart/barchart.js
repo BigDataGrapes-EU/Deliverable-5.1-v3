@@ -1,6 +1,5 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
-import './style.css';
 
 import { Card, Icon } from 'antd';
 import { Bar  } from 'react-chartjs-2';

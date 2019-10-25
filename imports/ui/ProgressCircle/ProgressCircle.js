@@ -1,19 +1,20 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
-import { Card, Icon } from 'antd';
-import {Pie} from 'react-chartjs-2';
+import { Progress, Card, Icon } from 'antd';
+
 // App component - represents the whole app
-class Piechart extends React.Component {
+class ProgressCircle extends React.Component {
 
   constructor(props) {
     super(props);
   }
 
   render() {
+    const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     return(
       <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
-        <Pie data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true }} />
+        <Progress type="circle" percent={75} />
       </Card>
     );
 
@@ -24,4 +25,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(Piechart);
+})(ProgressCircle);

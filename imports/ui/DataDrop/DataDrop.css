@@ -1,10 +1,13 @@
 .dd-content {
-  border: 1px dashed blue;
+  border: 1px dashed #0000f5;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   color: #888888;
   font-size: 14px;
+  background: white;
+  font-weight: 200;
+  cursor: pointer;
 }
 
 .dd-content div {
@@ -15,6 +18,15 @@
 .dd-content p {
   margin: 0;
   padding: 16px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd-content:hover {
+  background: #e8e8e8;
+  color: #424242;
 }
 
 .file-details {
@@ -27,9 +39,11 @@
 .file-details h1 {
   font-size: 32px;
   margin: 0;
+  color: #424242;
+  line-height: 1;
 }
 
 .file-subtitle {
   font-size: 14px;
-  color: #888888;
+  color: #b7b7b7;
 }

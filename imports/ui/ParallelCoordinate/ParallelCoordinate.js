@@ -1,7 +1,6 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
-import './style.css';
 import 'react-vis/dist/style.css';
 
 import { ParallelCoordinates } from 'react-vis';
