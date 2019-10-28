@@ -50,7 +50,7 @@ body {
   /* background: #002984; */
   padding: 16px;
   display: grid;
-  grid-row-gap: 8px;
+  grid-row-gap: 16px;
   grid-template-rows: max-content;
   border-right: 1px solid #e8e8e8;
 }

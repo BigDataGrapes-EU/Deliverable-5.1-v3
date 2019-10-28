@@ -30,3 +30,7 @@
   font-weight: 100;
   color: gray;
 }
+
+.ant-card-bordered {
+  border: 0;
+}
