@@ -41,13 +41,13 @@ class DataDrop extends Component {
       render = <div className="file-details">
       <h1>{this.state.fileName}</h1>
       <div className="file-subtitle">{this.state.numRows} records - {this.state.fileSize} Mb</div>
-      render = <Spin spinning={this.state.isDataLoading} tip="Loading...">
+      <Spin spinning={this.state.isDataLoading} tip="Loading...">
       <Dropzone onDrop={acceptedFiles => this.processFiles(acceptedFiles)}>
       {({getRootProps, getInputProps}) => (
-        <section className="dd-content">
+        <section className="dd-content dd-content-new">
         <div {...getRootProps()}>
         <input {...getInputProps()} />
-        <p>Drag and drop a <b>new</b> CSV file here, or click to select a <b>new</b> file.</p>
+        <p>Open new file...</p>
         </div>
         </section>
       )}

@@ -10,6 +10,15 @@
   cursor: pointer;
 }
 
+.dd-content-new {
+  height: 48px;
+  margin-top: 8px;
+}
+
+.dd-content-new p {
+  height: 48px !important;
+}
+
 .dd-content div {
   width: 100%;
   text-align: center;
