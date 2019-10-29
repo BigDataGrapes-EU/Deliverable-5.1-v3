@@ -37,7 +37,7 @@ class Radarchart extends React.Component {
       ]
     };
     return(
-      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Radar data={data} options={{ maintainAspectRatio: true }} />
       </Card>
     );

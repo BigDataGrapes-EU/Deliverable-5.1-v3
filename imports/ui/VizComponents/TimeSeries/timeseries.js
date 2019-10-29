@@ -38,7 +38,7 @@ class Timeseries extends React.Component {
       // }
     }
     return(
-      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card bordered={false} size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Line data={this.props.data} width={100} height={50} options={
           { maintainAspectRatio: true,
             scales: {

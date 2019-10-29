@@ -33,7 +33,7 @@ class Barchart extends React.Component {
     };
     const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     return(
-      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Bar data={data} options = {options} />
       </Card>
     );

@@ -33,12 +33,12 @@
 
 .viz-container .ant-card-head {
   cursor: pointer;
-  background: #fafafa;
+  background: #fcfcfc;
   color: #424242;
 }
 
 .viz-container .ant-card-head:hover {
-  background-color: #f0f0f0;
+  background-color: #fafafa;
 }
 
 .viz-container .data-table .ant-table{
@@ -46,6 +46,10 @@
 }
 
 .data-table .ant-table-thead {
-  background: #fafafa;
+  background: #fcfcfc;
   font-weight: 500;
+}
+
+.viz-container {
+  border-radius: 8px !important;
 }

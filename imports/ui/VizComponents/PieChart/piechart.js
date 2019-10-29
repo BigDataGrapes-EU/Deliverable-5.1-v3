@@ -12,7 +12,7 @@ class Piechart extends React.Component {
 
   render() {
     return(
-      <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
         <Pie data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true }} />
       </Card>
     );

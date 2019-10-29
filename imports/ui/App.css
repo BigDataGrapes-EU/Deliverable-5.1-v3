@@ -33,6 +33,7 @@ h2 {
   grid-template-rows:    repeat(auto-fill, 400px);
   min-width: 0px;
   padding: 8px;
+  background: #ececec;
 }
 
 body {

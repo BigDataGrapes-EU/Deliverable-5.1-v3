@@ -46,18 +46,18 @@ class App extends Component {
 
       content = <div className="component-container">
                 <DataTable data = {this.props.Dataset} columns = {columns} title="Data Explorer" />
-                <Heatmap            title="HeatMap"/>
-                <ProgressCircle     title="Progress Circle"/>
-                <ParallelCoordinate title="Parallel Coordinates"/>
-                <Barchart    title="Bar Chart"   />
-                <Histogram   title="Histogram"   />
-                <Radarchart  title="Radar Chart" />
-                <Scatterplot title="Scartterplot"/>
-                <Piechart    title="Pie Chart"   />
-                <Timeseries  title="Timeseries"  />
-                <LineChart   title="Line Chart"  />
-                <AreaChart   title="Area Chart"  />
-                <TimeData    title="Time Data"   />
+                <Heatmap            size="small" title="HeatMap"/>
+                <ProgressCircle     size="small" title="Progress Circle"/>
+                <ParallelCoordinate size="small" title="Parallel Coordinates"/>
+                <Barchart    size="small" title="Bar Chart"   />
+                <Histogram   size="small" title="Histogram"   />
+                <Radarchart  size="small" title="Radar Chart" />
+                <Scatterplot size="small" title="Scartterplot"/>
+                <Piechart    size="small" title="Pie Chart"   />
+                <Timeseries  size="small" title="Timeseries"  />
+                <LineChart   size="small" title="Line Chart"  />
+                <AreaChart   size="small" title="Area Chart"  />
+                <TimeData    size="small" title="Time Data"   />
                 </div>;
     }
     // <VizChooser/>
