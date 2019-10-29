@@ -8,8 +8,10 @@ clone this repository:
 git clone https://github.com/BigDataGrapes-EU/visualisationdemo.git
 ```
 
+run the app:
+
 ```bash
-cd simple-todos
+cd visualisationdemo
 meteor
 ```
 
