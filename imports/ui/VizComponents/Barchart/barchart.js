@@ -3,11 +3,28 @@ import { withTracker } from 'meteor/react-meteor-data';
 
 import { Card, Icon } from 'antd';
 import { Bar  } from 'react-chartjs-2';
+import { Resizable, ResizableBox } from 'react-resizable';
+import 'react-resizable/css/styles.css';
+
 // App component - represents the whole app
 class Barchart extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      size: "small",
+      icon: "fullscreen"
+    };
+  }
+
+  changeCardSize() {
+    if(this.state.size == "small" ) {
+      this.setState({ size: "large", icon: "fullscreen-exit"});
+    } else {
+      this.setState({ size: "small", icon: "fullscreen"});
+    }
+    // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
+
   }
 
   render() {
@@ -32,8 +49,14 @@ class Barchart extends React.Component {
       }]
     };
     const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
+    let style = { gridColumn: "span 1", gridRow: "span 1" };
+    if(this.state.size == "small") {
+      style = { gridColumn: "span 1", gridRow: "span 1" };
+    } else {
+      style = { gridColumn: "span 2", gridRow: "span 2" };
+    }
     return(
-      <Card size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} className="viz-container" style={style}>
         <Bar data={data} options = {options} />
       </Card>
     );

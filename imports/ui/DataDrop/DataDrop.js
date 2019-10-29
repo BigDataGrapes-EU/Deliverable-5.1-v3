@@ -47,7 +47,7 @@ class DataDrop extends Component {
         <section className="dd-content dd-content-new">
         <div {...getRootProps()}>
         <input {...getInputProps()} />
-        <p>Open new file...</p>
+        <p>open new file...</p>
         </div>
         </section>
       )}
