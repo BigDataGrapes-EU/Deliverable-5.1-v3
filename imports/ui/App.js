@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-
 import './App.css';
-import './Components.css';
+import './VizComponents/Components.css';
 import _ from 'lodash'
-
+/****** ------------------ ******/
 const Fragment = React.Fragment;
-import Barchart    from '/imports/ui/barchart/barchart.js';
-import Radarchart  from '/imports/ui/radarchart/radarchart.js';
-import Scatterplot from '/imports/ui/scatterplot/scatterplot.js';
-import Piechart    from '/imports/ui/piechart/piechart.js';
-import Timeseries  from '/imports/ui/timeseries/timeseries.js';
-import DataTable   from '/imports/ui/DataTable/DataTable.js';
-import LineChart   from '/imports/ui/LineChart/LineChart.js'
-import Heatmap     from '/imports/ui/Heatmap/Heatmap.js'
-import ProgressCircle from '/imports/ui/ProgressCircle/ProgressCircle.js'
-import ParallelCoordinate from '/imports/ui/ParallelCoordinate/ParallelCoordinate.js';
-
-import { Dataset } from '/imports/api/tasks.js';
-
+import Barchart           from './VizComponents/Barchart/barchart.js';
+import Histogram          from './VizComponents/Histogram/Histogram.js';
+import Radarchart         from './VizComponents/Radarchart/radarchart.js';
+import Scatterplot        from './VizComponents/Scatterplot/scatterplot.js';
+import Piechart           from './VizComponents/Piechart/piechart.js';
+import Timeseries         from './VizComponents/Timeseries/timeseries.js';
+import DataTable          from './VizComponents/DataTable/DataTable.js';
+import LineChart          from './VizComponents/LineChart/LineChart.js'
+import Heatmap            from './VizComponents/Heatmap/Heatmap.js'
+import ProgressCircle     from './VizComponents/ProgressCircle/ProgressCircle.js'
+import ParallelCoordinate from './VizComponents/ParallelCoordinate/ParallelCoordinate.js';
+/****** ------------------ ******/
 import DataDrop    from '/imports/ui/DataDrop/DataDrop.js'
 import VizChooser  from '/imports/ui/VizChooser/VizChooser.js'
-
+import { Dataset } from '/imports/api/tasks.js';
 import { withTracker } from 'meteor/react-meteor-data';
 import { Divider, Layout, Sider } from 'antd';
 
@@ -40,35 +38,38 @@ class App extends Component {
     let content = "";
     if(!_.isEmpty(this.props.Dataset)) {
       _.forEach(_.keys(this.props.Dataset[0]), function(name){
-        columns.push({ title: name, dataIndex: name, key: name });
+        columns.push({ title: name, dataIndex: name, key: name, width: 100 });
       });
-      content = <div className="component-container"><DataTable data = {this.props.Dataset} columns = {columns} title="Data Explorer" /><Heatmap title="HeatMap"/><ProgressCircle title="Progress Circle"/><ParallelCoordinate title="Parallel Coordinates"/></div>;
-      }
-      // <Barchart           title="Bar Chart" />
-      // <Radarchart         title="Radar Chart" />
-      // <Scatterplot        title="Scartterplot" />
-      // <Piechart           title="Pie Chart" />
-      // <Timeseries         title="Timeseries" />
-      // <LineChart          title="Line Chart" />
-      // <VizChooser/>
-      // </Fragment>
-      return(
-        <div className="layout">
-          <div className="data-sider">
-            <DataDrop/>
-            <VizChooser/>
-          </div>
-          <div className="main-content">
-            {content}
-          </div>
-          <div className="options-sider"></div>
-        </div>
-      );
-    } // end of render
-  } // end of class
+      content = <div className="component-container">
+                <DataTable data = {this.props.Dataset} columns = {columns} title="Data Explorer" />
+                <Heatmap title="HeatMap"/>
+                <ProgressCircle title="Progress Circle"/>
+                <ParallelCoordinate title="Parallel Coordinates"/>
+                <Barchart           title="Bar Chart" />
+                <Radarchart         title="Radar Chart" />
+                <Scatterplot        title="Scartterplot" />
+                <Piechart           title="Pie Chart" />
+                <Timeseries         title="Timeseries" />
+                <LineChart          title="Line Chart" />
+                </div>;
+    }
+    // <VizChooser/>
+    // </Fragment>
+    return(
+      <Fragment>
+      <div className="data-sider">
+      <DataDrop/>
+      <VizChooser/>
+      </div>
+      {content}
+      <div className="options-sider"></div>
+      </Fragment>
+    );
+  } // end of render
+} // end of class
 
-  export default withTracker((props) => {
-    return {
-      Dataset: Dataset.find({}).fetch(),
-    };
-  })(App);
+export default withTracker((props) => {
+  return {
+    Dataset: Dataset.find({}).fetch(),
+  };
+})(App);

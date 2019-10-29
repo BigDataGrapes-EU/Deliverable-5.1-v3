@@ -68,9 +68,9 @@ class ParallelCoordinate extends React.Component {
       <ParallelCoordinates
       data={data}
       style={style}
-      margin={60}
-      width={600}
-      height={400}
+      margin = {10}
+      width  = {200}
+      height = {200}
       domains={[
         {name: 'mileage',     domain: [0, 10] },
         {name: 'price',       domain: [2, 16], getValue: d => d.price},

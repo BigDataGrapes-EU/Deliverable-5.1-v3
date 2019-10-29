@@ -25,12 +25,12 @@
 
 .grid-card h1 {
   margin: 0px;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 4px;
   font-weight: 100;
   color: gray;
 }
 
-.ant-card-bordered {
+.viz-chooser {
   border: 0;
 }

@@ -30,3 +30,22 @@
   cursor: pointer;
   color: blue;
 }
+
+.viz-container .ant-card-head {
+  cursor: pointer;
+  background: #fafafa;
+  color: #424242;
+}
+
+.viz-container .ant-card-head:hover {
+  background-color: #f0f0f0;
+}
+
+.viz-container .data-table .ant-table{
+  font-size: 12px;
+}
+
+.data-table .ant-table-thead {
+  background: #fafafa;
+  font-weight: 500;
+}
