@@ -22,11 +22,12 @@ class VizChooser extends Component {
       <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="dot-chart"   /><h1>Scatterplot </h1></Card.Grid>
       <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="line-chart"  /><h1>Line Chart </h1></Card.Grid>
       <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="radar-chart" /><h1>Radar Chart </h1></Card.Grid>
-      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="experiment"  /><h1>Data Table </h1></Card.Grid>
-      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="experiment"  /><h1>P. Coords </h1></Card.Grid>
-      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="experiment"  /><h1>P. Circle </h1></Card.Grid>
-      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="experiment"  /><h1>TimeSeries </h1></Card.Grid>
-      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="experiment"  /><h1>TimeData </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>Data Table </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>P. Coords </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>P. Circle </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>TimeSeries </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>TimeData   </h1></Card.Grid>
+      <Card.Grid className="grid-card"><Avatar className="icon" shape="square" size="large" icon="heat-map"    /><h1>HeatMap    </h1></Card.Grid>
       </Card>
     );
   } // end of render

@@ -4,7 +4,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Card, Icon } from 'antd';
 import { Bar  } from 'react-chartjs-2';
 // App component - represents the whole app
-class TimeData extends React.Component {
+class Histogram extends React.Component {
 
   constructor(props) {
     super(props);
@@ -34,7 +34,7 @@ class TimeData extends React.Component {
     const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     return(
       <Card title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
-        <Bar data={data} options = {options} />
+      <Bar data={data} options = {options} />
       </Card>
     );
 
@@ -45,4 +45,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(TimeData);
+})(Histogram);
