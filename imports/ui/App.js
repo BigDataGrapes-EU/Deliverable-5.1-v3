@@ -53,21 +53,22 @@ class App extends Component {
       case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
       case "pcoords":    list.push(<ParallelCoordinate />); break;
     }
+    /** Temp logic **/
     this.setState({visComponents: list});
-  }
-
-  renderComponents() {
-    return this.state.visComponents;
-  }
-  
-  render() {
-    let columns = [];
     if(!_.isEmpty(this.props.Dataset)) {
       _.forEach(_.keys(this.props.Dataset[0]), function(name,i){
         if(name != "_id") columns.push({ title: name, dataIndex: name, key: name, width: 100 });
       });
       this.setState({columns: columns})
     }
+    /** Temp logic **/
+  }
+
+  renderComponents() {
+    return this.state.visComponents;
+  }
+
+  render() {
     return(
       <Fragment>
         <div className="data-sider"><DataDrop/> <VizChooser selectedComp = {this.addComponent }/></div>
