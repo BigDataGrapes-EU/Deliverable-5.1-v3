@@ -24,7 +24,6 @@ class Barchart extends React.Component {
       this.setState({ size: "small", icon: "fullscreen"});
     }
     // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
-
   }
 
   render() {
@@ -56,7 +55,7 @@ class Barchart extends React.Component {
       style = { gridColumn: "span 2", gridRow: "span 2" };
     }
     return(
-      <Card size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} className="viz-container" style={style}>
+      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
         <Bar data={data} options = {options} />
       </Card>
     );

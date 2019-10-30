@@ -8,6 +8,19 @@ class Radarchart extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      size: "small",
+      icon: "fullscreen"
+    };
+  }
+
+  changeCardSize() {
+    if(this.state.size == "small" ) {
+      this.setState({ size: "large", icon: "fullscreen-exit"});
+    } else {
+      this.setState({ size: "small", icon: "fullscreen"});
+    }
+    // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
   }
 
   render() {
@@ -36,8 +49,10 @@ class Radarchart extends React.Component {
         }
       ]
     };
+    let style = { gridColumn: "span 1", gridRow: "span 1" };
+    if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
-      <Card size="small" title={this.props.title} extra={<Icon type="setting" />} className="viz-container">
+      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
         <Radar data={data} options={{ maintainAspectRatio: true }} />
       </Card>
     );

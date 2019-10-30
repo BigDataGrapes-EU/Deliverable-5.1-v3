@@ -50,7 +50,7 @@ body {
   display: grid;
   grid-row-gap: 16px;
   grid-template-rows: max-content;
-  border-right: 1px solid #e8e8e8;
+  /* border-right: 1px solid #d1d1d1; */
 }
 
 .options-sider {
@@ -58,7 +58,7 @@ body {
   display: grid;
   grid-row-gap: 16px;
   grid-template-rows: max-content;
-  border-left: 1px solid #e8e8e8;
+  /* border-left: 1px solid #d1d1d1; */
 }
 
 .main {
