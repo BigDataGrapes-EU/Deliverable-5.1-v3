@@ -30,46 +30,49 @@ class App extends Component {
     super(props);
     this.state = {
       fileName: "",
-      dataReady: false
+      dataReady: false,
+      visComponents: [],
+      columns: [],
     };
   }
 
+  addComponent = (name) => {
+    // this.setState({message: childData})
+    let list = this.state.visComponents;
+    switch (name) {
+      case "area":       list.push(<AreaChart     />); break;
+      case "pie":        list.push(<Piechart      />); break;
+      case "bar":        list.push(<Barchart      />); break;
+      case "scatter":    list.push(<Scatterplot   />); break;
+      case "line":       list.push(<LineChart     />); break;
+      case "radar":      list.push(<Radarchart    />); break;
+      case "pcircle":    list.push(<ProgressCircle/>); break;
+      case "timeseries": list.push(<Timeseries    />); break;
+      case "timedata":   list.push(<TimeData      />); break;
+      case "heatmap":    list.push(<Heatmap       />); break;
+      case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
+      case "pcoords":    list.push(<ParallelCoordinate />); break;
+    }
+    this.setState({visComponents: list});
+  }
+
+  renderComponents() {
+    return this.state.visComponents;
+  }
+  
   render() {
-
     let columns = [];
-    let content = "";
     if(!_.isEmpty(this.props.Dataset)) {
-
       _.forEach(_.keys(this.props.Dataset[0]), function(name,i){
         if(name != "_id") columns.push({ title: name, dataIndex: name, key: name, width: 100 });
       });
-
-      content = <div className="component-container">
-                <DataTable data = {this.props.Dataset} columns = {columns} title="Data Explorer" />
-                <Heatmap            size="small" title="HeatMap"/>
-                <ProgressCircle     size="small" title="Progress Circle"/>
-                <ParallelCoordinate size="small" title="Parallel Coordinates"/>
-                <Barchart    size="small" title="Bar Chart"   />
-                <Histogram   size="small" title="Histogram"   />
-                <Radarchart  size="small" title="Radar Chart" />
-                <Scatterplot size="small" title="Scartterplot"/>
-                <Piechart    size="small" title="Pie Chart"   />
-                <Timeseries  size="small" title="Timeseries"  />
-                <LineChart   size="small" title="Line Chart"  />
-                <AreaChart   size="small" title="Area Chart"  />
-                <TimeData    size="small" title="Time Data"   />
-                </div>;
+      this.setState({columns: columns})
     }
-    // <VizChooser/>
-    // </Fragment>
     return(
       <Fragment>
-      <div className="data-sider">
-      <DataDrop/>
-      <VizChooser/>
-      </div>
-      {content}
-      <div className="options-sider"></div>
+        <div className="data-sider"><DataDrop/> <VizChooser selectedComp = {this.addComponent }/></div>
+        <div className="component-container">{this.renderComponents()}</div>
+        <div className="options-sider"></div>
       </Fragment>
     );
   } // end of render

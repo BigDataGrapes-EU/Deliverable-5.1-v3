@@ -49,11 +49,7 @@ class Barchart extends React.Component {
     };
     const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     let style = { gridColumn: "span 1", gridRow: "span 1" };
-    if(this.state.size == "small") {
-      style = { gridColumn: "span 1", gridRow: "span 1" };
-    } else {
-      style = { gridColumn: "span 2", gridRow: "span 2" };
-    }
+    if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
       <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
         <Bar data={data} options = {options} />
