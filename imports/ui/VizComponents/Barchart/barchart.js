@@ -6,6 +6,8 @@ import { Bar  } from 'react-chartjs-2';
 import { Resizable, ResizableBox } from 'react-resizable';
 import 'react-resizable/css/styles.css';
 
+const Fragment = React.Fragment;
+
 // App component - represents the whole app
 class Barchart extends React.Component {
 
@@ -23,7 +25,16 @@ class Barchart extends React.Component {
     } else {
       this.setState({ size: "small", icon: "fullscreen"});
     }
-    // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
+  }
+
+  extraTools() {
+    return <Fragment>
+      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
+      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
+      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
+      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
+      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
+    </Fragment>
   }
 
   render() {
@@ -51,7 +62,7 @@ class Barchart extends React.Component {
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
-      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
+      <Card className="viz-container" size="small" title={this.props.title} extra={this.extraTools()} style={style}>
         <Bar data={data} options = {options} />
       </Card>
     );

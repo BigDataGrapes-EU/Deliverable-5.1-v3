@@ -34,6 +34,8 @@ h2 {
   min-width: 0px;
   padding: 8px;
   background: #ececec;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 body {

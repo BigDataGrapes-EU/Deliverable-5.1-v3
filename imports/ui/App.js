@@ -37,24 +37,9 @@ class App extends Component {
   }
 
   addComponent = (name) => {
-    // this.setState({message: childData})
-    let list = this.state.visComponents;
-    switch (name) {
-      case "area":       list.push(<AreaChart     />); break;
-      case "pie":        list.push(<Piechart      />); break;
-      case "bar":        list.push(<Barchart      />); break;
-      case "scatter":    list.push(<Scatterplot   />); break;
-      case "line":       list.push(<LineChart     />); break;
-      case "radar":      list.push(<Radarchart    />); break;
-      case "pcircle":    list.push(<ProgressCircle/>); break;
-      case "timeseries": list.push(<Timeseries    />); break;
-      case "timedata":   list.push(<TimeData      />); break;
-      case "heatmap":    list.push(<Heatmap       />); break;
-      case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
-      case "pcoords":    list.push(<ParallelCoordinate />); break;
-    }
+
     /** Temp logic **/
-    this.setState({visComponents: list});
+    let columns = [];
     if(!_.isEmpty(this.props.Dataset)) {
       _.forEach(_.keys(this.props.Dataset[0]), function(name,i){
         if(name != "_id") columns.push({ title: name, dataIndex: name, key: name, width: 100 });
@@ -62,6 +47,24 @@ class App extends Component {
       this.setState({columns: columns})
     }
     /** Temp logic **/
+
+    let list = this.state.visComponents;
+    switch (name) {
+      case "area":       list.push(<AreaChart      title="name" />); break;
+      case "pie":        list.push(<Piechart       title="name" />); break;
+      case "bar":        list.push(<Barchart       title="name" />); break;
+      case "scatter":    list.push(<Scatterplot    title="name" />); break;
+      case "line":       list.push(<LineChart      title="name" />); break;
+      case "radar":      list.push(<Radarchart     title="name" />); break;
+      case "pcircle":    list.push(<ProgressCircle title="name" />); break;
+      case "timeseries": list.push(<Timeseries     title="name" />); break;
+      case "timedata":   list.push(<TimeData       title="name" />); break;
+      case "heatmap":    list.push(<Heatmap        title="name" />); break;
+      case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
+      case "pcoords":    list.push(<ParallelCoordinate title="name" />); break;
+    }
+    this.setState({visComponents: list});
+
   }
 
   renderComponents() {
