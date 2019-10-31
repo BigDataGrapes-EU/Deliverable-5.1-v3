@@ -1,11 +1,12 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
-import { Card, Icon } from 'antd';
+import { Button, Card, Icon } from 'antd';
 import { Bar  } from 'react-chartjs-2';
 import { Resizable, ResizableBox } from 'react-resizable';
 import 'react-resizable/css/styles.css';
 
+const ButtonGroup = Button.Group;
 const Fragment = React.Fragment;
 
 // App component - represents the whole app
@@ -19,22 +20,16 @@ class Barchart extends React.Component {
     };
   }
 
-  changeCardSize() {
-    if(this.state.size == "small" ) {
-      this.setState({ size: "large", icon: "fullscreen-exit"});
-    } else {
-      this.setState({ size: "small", icon: "fullscreen"});
-    }
-  }
+  changeComponentSize() { if(this.state.size == "small" ) { this.setState({ size: "large", icon: "fullscreen-exit"}); } else { this.setState({ size: "small", icon: "fullscreen"});}}
+  editComponent()   {}
+  removeComponent() {}
 
   extraTools() {
-    return <Fragment>
-      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
-      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
-      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
-      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
-      <Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />
-    </Fragment>
+    return <ButtonGroup>
+      <Button type="dashed" size="small" onClick={(e) => this.changeComponentSize()} icon={this.state.icon} />
+      <Button type="dashed" size="small" icon="edit"  />
+      <Button type="danger" size="small" icon="close" />
+    </ButtonGroup>;
   }
 
   render() {
@@ -61,8 +56,11 @@ class Barchart extends React.Component {
     const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
+    let title = this.props.title;
+    if(title == undefined) title = "This is a bar chart.";
     return(
-      <Card className="viz-container" size="small" title={this.props.title} extra={this.extraTools()} style={style}>
+      <Card className="viz-container" bordered={false} size="small" extra={this.extraTools()} title={title} style={style}>
+
         <Bar data={data} options = {options} />
       </Card>
     );

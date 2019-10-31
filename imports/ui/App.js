@@ -50,16 +50,16 @@ class App extends Component {
 
     let list = this.state.visComponents;
     switch (name) {
-      case "area":       list.push(<AreaChart      title="name" />); break;
-      case "pie":        list.push(<Piechart       title="name" />); break;
-      case "bar":        list.push(<Barchart       title="name" />); break;
-      case "scatter":    list.push(<Scatterplot    title="name" />); break;
-      case "line":       list.push(<LineChart      title="name" />); break;
-      case "radar":      list.push(<Radarchart     title="name" />); break;
-      case "pcircle":    list.push(<ProgressCircle title="name" />); break;
-      case "timeseries": list.push(<Timeseries     title="name" />); break;
-      case "timedata":   list.push(<TimeData       title="name" />); break;
-      case "heatmap":    list.push(<Heatmap        title="name" />); break;
+      case "area":       list.push(<AreaChart      />); break;
+      case "pie":        list.push(<Piechart       />); break;
+      case "bar":        list.push(<Barchart       />); break;
+      case "scatter":    list.push(<Scatterplot    />); break;
+      case "line":       list.push(<LineChart      />); break;
+      case "radar":      list.push(<Radarchart     />); break;
+      case "pcircle":    list.push(<ProgressCircle />); break;
+      case "timeseries": list.push(<Timeseries     />); break;
+      case "timedata":   list.push(<TimeData       />); break;
+      case "heatmap":    list.push(<Heatmap        />); break;
       case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
       case "pcoords":    list.push(<ParallelCoordinate title="name" />); break;
     }
@@ -74,7 +74,7 @@ class App extends Component {
   render() {
     return(
       <Fragment>
-        <div className="data-sider"><DataDrop/> <VizChooser selectedComp = {this.addComponent }/></div>
+        <div className="data-sider"><DataDrop/><VizChooser selectedComp = {this.addComponent }/></div>
         <div className="component-container">{this.renderComponents()}</div>
         <div className="options-sider"></div>
       </Fragment>
