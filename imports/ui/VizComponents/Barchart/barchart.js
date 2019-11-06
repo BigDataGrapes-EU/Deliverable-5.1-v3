@@ -21,7 +21,7 @@ class Barchart extends React.Component {
       size: "small",
       icon: "fullscreen",
       editMode: true,
-      selectedData: this.props.columns[0].title,
+      selectedData: "",
       data: {},
       options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] }, legend: { display: false }, tooltips: { callbacks: { label: function(tooltipItem) { return tooltipItem.yLabel; } } } },
     };
