@@ -30,7 +30,7 @@ class Barchart extends React.Component {
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
       <div className="vis-card-container" style={style}>
-        <div className="vis-card-header"><h1>{title}</h1>{this.extraTools()}</div>
+        <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>
         <div className="vis-card-content">
       <Chart forceFit height={400} data={data} padding={[ 0, 30, 60, 30 ]}>
       <Legend offset={10}/>

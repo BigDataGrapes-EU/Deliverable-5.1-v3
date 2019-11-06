@@ -17,6 +17,9 @@ import Heatmap            from './VizComponents/Heatmap/Heatmap.js'
 import TimeData           from './VizComponents/TimeData/TimeData.js'
 import ProgressCircle     from './VizComponents/ProgressCircle/ProgressCircle.js'
 import ParallelCoordinate from './VizComponents/ParallelCoordinate/ParallelCoordinate.js';
+
+import VegaLiteDemo from './VizComponents/VegaLiteDemo/VegaLiteDemo.js'
+
 /****** ------------------ ******/
 import DataDrop    from './DataDrop/DataDrop.js'
 import VizChooser  from './VizChooser/VizChooser.js'
@@ -50,18 +53,19 @@ class App extends Component {
 
     let list = this.state.visComponents;
     switch (name) {
-      case "area":       list.push(<AreaChart      />); break;
-      case "pie":        list.push(<Piechart       />); break;
-      case "bar":        list.push(<Barchart   data = {this.props.Dataset} columns = {columns} />); break;
-      case "scatter":    list.push(<Scatterplot    />); break;
-      case "line":       list.push(<LineChart      />); break;
-      case "radar":      list.push(<Radarchart     />); break;
-      case "pcircle":    list.push(<ProgressCircle />); break;
-      case "timeseries": list.push(<Timeseries     />); break;
-      case "timedata":   list.push(<TimeData       />); break;
-      case "heatmap":    list.push(<Heatmap        />); break;
+      case "area":       list.push(<AreaChart title="Area Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "pie":        list.push(<Piechart  title="Pie Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "bar":        list.push(<Barchart  title="Bar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "scatter":    list.push(<Scatterplot title="Scatterplot"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "line":       list.push(<LineChart   title="Line Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "radar":      list.push(<Radarchart  title="Radar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "pcircle":    list.push(<ProgressCircle title="Progress"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "timeseries": list.push(<Timeseries     title="Timeseries"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "timedata":   list.push(<TimeData       title="Data overtime"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "heatmap":    list.push(<Heatmap        title="Heatmap"  data = {this.props.Dataset} columns = {columns} />); break;
       case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
-      case "pcoords":    list.push(<ParallelCoordinate title="name" />); break;
+      case "pcoords":    list.push(<ParallelCoordinate title="Parallel Coordinates" data = {this.props.Dataset} columns = {columns} />); break;
+      case "vega":  list.push(<VegaLiteDemo data = {this.props.Dataset} columns = {columns} title="Vega-Lite Demo" />); break;
     }
     this.setState({visComponents: list});
   }

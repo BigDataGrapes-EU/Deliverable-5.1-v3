@@ -29,6 +29,8 @@ class VizChooser extends Component {
       <Card.Grid onClick={(e) => this.addComponent("timeseries")} className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>TimeSeries </h1></Card.Grid>
       <Card.Grid onClick={(e) => this.addComponent("timedata")}   className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"        /><h1>TimeData   </h1></Card.Grid>
       <Card.Grid onClick={(e) => this.addComponent("heatmap")}    className="grid-card"><Avatar className="icon" shape="square" size="large" icon="heat-map"    /><h1>HeatMap    </h1></Card.Grid>
+      <Card.Grid onClick={(e) => this.addComponent("vega")}    className="grid-card"><Avatar className="icon" shape="square" size="large" icon="fund"    /><h1>VegaLiteDemo    </h1></Card.Grid>
+
       </Card>
     );
   } // end of render

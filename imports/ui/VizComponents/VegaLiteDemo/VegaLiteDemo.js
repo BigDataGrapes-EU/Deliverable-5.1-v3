@@ -3,17 +3,19 @@ import { withTracker } from 'meteor/react-meteor-data';
 
 import _ from 'lodash'
 import { Button, Icon, Empty, Select, Tabs } from 'antd';
-import { Bar  } from 'react-chartjs-2';
 import { Resizable, ResizableBox } from 'react-resizable';
 import 'react-resizable/css/styles.css';
+import 'babel-polyfill';
 
 const ButtonGroup = Button.Group;
 const Fragment = React.Fragment;
 const { TabPane } = Tabs;
 const { Option } = Select;
 
+import VegaLite from 'react-vega-lite';
+
 // App component - represents the whole app
-class Barchart extends React.Component {
+class VegaLiteDemo extends React.Component {
 
   constructor(props) {
     super(props);
@@ -63,19 +65,7 @@ class Barchart extends React.Component {
     </ButtonGroup>;
   }
 
-  showGraph() {
-    let graphData = this.props.data;
-    let selectedData = this.state.selectedData;
-    let group   = _.uniqBy(graphData, selectedData);
-    let labels  = _.map(group, selectedData);
-    let dataset = []; //_.meanBy(this.props.data, "YEAR");
-    _.forEach(labels, function(label){
-      let obj = _.countBy(graphData, function (rec) { return rec[selectedData] == label;});
-      dataset.push(obj.true);
-    });
-    const data = {labels: labels, datasets: [{data: dataset, }]}
-    if(!this.state.editMode) return <Bar data={data} options = {this.state.options}/>
-  }
+
 
   render() {
     let style = { gridColumn: "span 1", gridRow: "span 1" };
@@ -83,24 +73,29 @@ class Barchart extends React.Component {
     let selectedData = this.state.selectedData;
     let showGraph, showEdit;
     if(this.state.editMode) { showEdit = {display: "block"}; showGraph = {display: "none"}; } else {showEdit = {display: "none"}; showGraph = {display: "flex"}; }
+
+    const spec = {
+      "description": "A simple bar chart with embedded data.",
+      "mark": "bar",
+      "encoding": {
+        "x": {"field": "a", "type": "ordinal"},
+        "y": {"field": "b", "type": "quantitative"}
+      }
+    };
+
+    const barData = {
+      "values": [
+        {"a": "A","b": 20}, {"a": "B","b": 34}, {"a": "C","b": 55},
+        {"a": "D","b": 19}, {"a": "E","b": 40}, {"a": "F","b": 34},
+        {"a": "G","b": 91}, {"a": "H","b": 78}, {"a": "I","b": 25}
+      ]
+    };
+    
     return(
       <div className="vis-card-container" style={style}>
         <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>
         <div className="vis-card-content">
-          <Tabs defaultActiveKey="1"  tabBarExtraContent={<Button type="dashed" onClick={(e) => this.toggleEdit()}>OK</Button>} style={showEdit} >
-            <TabPane tab="Setup" key="1">
-              <Select onChange={(e) => {this.dataChange(e)}} style={{width: "160px"}}>{this.columnSelection()}</Select>
-              <Select defaultValue="mean" onChange={this.handleChange}>
-                <Option value="mean">mean</Option>
-                <Option value="sum">sum</Option>
-                <Option value="median">median</Option>
-                <Option value="min">min</Option>
-                <Option value="max">max</Option>
-              </Select>
-            </TabPane>
-            <TabPane tab="Customize" key="2"></TabPane>
-          </Tabs>
-          <div className="vis-card-chart" style={showGraph}>{this.showGraph()}</div>
+          <VegaLite spec={spec} data={barData} />
         </div>
       </div>
     );
@@ -112,4 +107,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(Barchart);
+})(VegaLiteDemo);
