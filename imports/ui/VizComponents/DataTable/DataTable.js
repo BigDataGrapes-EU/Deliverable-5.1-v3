@@ -27,9 +27,9 @@ class DataTable extends React.Component {
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
-      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
+      <div className="vis-card-container" style={style}>
       <Table className="data-table" size="small" rowKey="_id" dataSource={this.props.data} columns={this.props.columns}  pagination={{ pageSize: 100 }} scroll={{ x: true, y: 200 }} />
-      </Card>
+      </div>
     );
 
   } // end of render

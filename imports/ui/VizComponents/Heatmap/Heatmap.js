@@ -29,14 +29,17 @@ class Barchart extends React.Component {
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
-      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
+      <div className="vis-card-container" style={style}>
+        <div className="vis-card-header"><h1>{title}</h1>{this.extraTools()}</div>
+        <div className="vis-card-content">
       <Chart forceFit height={400} data={data} padding={[ 0, 30, 60, 30 ]}>
       <Legend offset={10}/>
       <Tooltip showTitle={false} />
       <Heatmap color={['tmp', '#F51D27-#FA541C-#FF8C12-#FFC838-#FAFFA8-#80FF73-#12CCCC-#1890FF-#6E32C2']} position="g*l"/>
       <Guide type="image" start={[ 'min', 'max' ]} end={[ 'max', 'min' ]} src="https://gw.alipayobjects.com/zos/rmsportal/NeUTMwKtPcPxIFNTWZOZ.png"/>
       </Chart>
-      </Card>
+      </div>
+    </div>
     );
 
   } // end of render

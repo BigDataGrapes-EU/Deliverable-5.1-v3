@@ -1,4 +1,4 @@
-.viz-container .ant-card-head-title {
+.vis-card-container .ant-card-head-title {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -7,7 +7,7 @@
   color: #424242;
 }
 
-.viz-container h2 {
+.vis-card-container h2 {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -17,31 +17,31 @@
   margin-bottom: 20px;
 }
 
-.viz-container .ant-card-extra {
+.vis-card-container .ant-card-extra {
   cursor: pointer;
 }
 
-.viz-container .ant-card-extra:hover {
-  cursor: pointer;
-  color: blue;
-}
-
-.viz-container .ant-card-extra:hover {
+.vis-card-container .ant-card-extra:hover {
   cursor: pointer;
   color: blue;
 }
 
-.viz-container .ant-card-head {
+.vis-card-container .ant-card-extra:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.vis-card-container .ant-card-head {
   cursor: pointer;
   background: #fcfcfc;
   color: #424242;
 }
 
-.viz-container .ant-card-head:hover {
+.vis-card-container .ant-card-head:hover {
   background-color: #fafafa;
 }
 
-.viz-container .data-table .ant-table{
+.vis-card-container .data-table .ant-table{
   font-size: 12px;
 }
 
@@ -50,7 +50,45 @@
   font-weight: 500;
 }
 
-.viz-container {
-  border-radius: 8px !important;
+.vis-card-container {
+  border-radius: 8px;
+  background: white;
+  padding: 16px;
+  display: grid;
+  grid-template-rows: 32px auto;
 }
-  
+
+.vis-card-container .vis-card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.vis-card-container .vis-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vis-card-container .vis-card-header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #828282;
+  font-weight: 100;
+}
+
+.vis-card-content .ant-tabs {
+  height: 100%;
+  width: 100%;
+}
+
+.vis-card-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

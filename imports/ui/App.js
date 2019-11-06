@@ -52,7 +52,7 @@ class App extends Component {
     switch (name) {
       case "area":       list.push(<AreaChart      />); break;
       case "pie":        list.push(<Piechart       />); break;
-      case "bar":        list.push(<Barchart       />); break;
+      case "bar":        list.push(<Barchart   data = {this.props.Dataset} columns = {columns} />); break;
       case "scatter":    list.push(<Scatterplot    />); break;
       case "line":       list.push(<LineChart      />); break;
       case "radar":      list.push(<Radarchart     />); break;
@@ -64,7 +64,6 @@ class App extends Component {
       case "pcoords":    list.push(<ParallelCoordinate title="name" />); break;
     }
     this.setState({visComponents: list});
-
   }
 
   renderComponents() {
@@ -72,11 +71,11 @@ class App extends Component {
   }
 
   render() {
+    // <div className="options-sider"></div>
     return(
       <Fragment>
         <div className="data-sider"><DataDrop/><VizChooser selectedComp = {this.addComponent }/></div>
         <div className="component-container">{this.renderComponents()}</div>
-        <div className="options-sider"></div>
       </Fragment>
     );
   } // end of render

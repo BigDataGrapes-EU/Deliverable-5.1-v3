@@ -27,9 +27,12 @@ class Piechart extends React.Component {
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
-      <Card className="viz-container" size="small" title={this.props.title} extra={<Icon onClick={(e) => this.changeCardSize()} type={this.state.icon} />} style={style}>
+      <div className="vis-card-container" style={style}>
+        <div className="vis-card-header"><h1>{title}</h1>{this.extraTools()}</div>
+        <div className="vis-card-content">
         <Pie data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true }} />
-      </Card>
+      </div>
+      </div>
     );
 
   } // end of render
