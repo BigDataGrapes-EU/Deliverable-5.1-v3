@@ -6,8 +6,8 @@ import _ from 'lodash'
 const Fragment = React.Fragment;
 import Barchart           from './VizComponents/Barchart/Barchart.js';
 import Histogram          from './VizComponents/Histogram/Histogram.js';
-import Radarchart         from './VizComponents/Radarchart/radarchart.js';
-import Scatterplot        from './VizComponents/Scatterplot/scatterplot.js';
+import Radarchart         from './VizComponents/Radarchart/Radarchart.js';
+import Scatterplot        from './VizComponents/Scatterplot/Scatterplot.js';
 import Piechart           from './VizComponents/Piechart/Piechart.js';
 import AreaChart          from './VizComponents/Areachart/Areachart.js';
 import Timeseries         from './VizComponents/Timeseries/Timeseries.js';

@@ -2,7 +2,7 @@ import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
 import { Card, Icon } from 'antd';
-import { Chart, Axis, Legend, Tooltip, Heatmap, Guide } from 'viser-react';
+import { Chart, Axis, Legend, Tooltip, Heatmap as HeatmapViser, Guide } from 'viser-react';
 
 // App component - represents the whole app
 class Heatmap extends React.Component {
@@ -35,7 +35,7 @@ class Heatmap extends React.Component {
       <Chart forceFit height={400} data={data} padding={[ 0, 30, 60, 30 ]}>
       <Legend offset={10}/>
       <Tooltip showTitle={false} />
-      <Heatmap color={['tmp', '#F51D27-#FA541C-#FF8C12-#FFC838-#FAFFA8-#80FF73-#12CCCC-#1890FF-#6E32C2']} position="g*l"/>
+      <HeatmapViser color={['tmp', '#F51D27-#FA541C-#FF8C12-#FFC838-#FAFFA8-#80FF73-#12CCCC-#1890FF-#6E32C2']} position="g*l"/>
       <Guide type="image" start={[ 'min', 'max' ]} end={[ 'max', 'min' ]} src="https://gw.alipayobjects.com/zos/rmsportal/NeUTMwKtPcPxIFNTWZOZ.png"/>
       </Chart>
       </div>
