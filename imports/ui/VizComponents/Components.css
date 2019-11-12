@@ -92,3 +92,29 @@
   width: 100%;
   height: 100%;
 }
+
+.vis-card-tab-title {
+  font-size: 12px;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.vis-card-tab-content {
+  display: grid;
+}
+
+.vis-card-data-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.vis-card-tab-inputs {
+  display: grid;
+  position: relative;
+  grid-auto-flow: column;
+  grid-column-gap: 8px;
+}
+
+.color-picker-popover {
+  top: 44px;
+}
