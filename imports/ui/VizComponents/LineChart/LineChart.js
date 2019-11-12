@@ -4,7 +4,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Card, Icon } from 'antd';
 import { Line } from 'react-chartjs-2';
 // App component - represents the whole app
-class LineChart extends React.Component {
+class Linechart extends React.Component {
 
   constructor(props) {
     super(props);
@@ -68,4 +68,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(LineChart);
+})(Linechart);

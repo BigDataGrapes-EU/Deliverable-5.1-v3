@@ -12,7 +12,7 @@ import Piechart           from './VizComponents/Piechart/Piechart.js';
 import AreaChart          from './VizComponents/Areachart/Areachart.js';
 import Timeseries         from './VizComponents/Timeseries/Timeseries.js';
 import DataTable          from './VizComponents/DataTable/DataTable.js';
-import LineChart          from './VizComponents/LineChart/LineChart.js'
+import Linechart          from './VizComponents/Linechart/Linechart.js'
 import Heatmap            from './VizComponents/Heatmap/Heatmap.js'
 import TimeData           from './VizComponents/TimeData/TimeData.js'
 import ProgressCircle     from './VizComponents/ProgressCircle/ProgressCircle.js'
@@ -57,7 +57,7 @@ class App extends Component {
       case "pie":        list.push(<Piechart  title="Pie Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "bar":        list.push(<Barchart  title="Bar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "scatter":    list.push(<Scatterplot title="Scatterplot"  data = {this.props.Dataset} columns = {columns} />); break;
-      case "line":       list.push(<LineChart   title="Line Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "line":       list.push(<Linechart   title="Line Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "radar":      list.push(<Radarchart  title="Radar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "pcircle":    list.push(<ProgressCircle title="Progress"  data = {this.props.Dataset} columns = {columns} />); break;
       case "timeseries": list.push(<Timeseries     title="Timeseries"  data = {this.props.Dataset} columns = {columns} />); break;
