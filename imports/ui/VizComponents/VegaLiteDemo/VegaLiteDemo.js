@@ -15,7 +15,7 @@ const { Option } = Select;
 import VegaLite from 'react-vega-lite';
 
 // App component - represents the whole app
-class VegaLiteDemo extends React.Component {
+class Vegalitedemo extends React.Component {
 
   constructor(props) {
     super(props);
@@ -90,7 +90,7 @@ class VegaLiteDemo extends React.Component {
         {"a": "G","b": 91}, {"a": "H","b": 78}, {"a": "I","b": 25}
       ]
     };
-    
+
     return(
       <div className="vis-card-container" style={style}>
         <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>

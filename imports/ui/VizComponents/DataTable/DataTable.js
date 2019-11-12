@@ -4,7 +4,7 @@ import { Card, Icon, Table } from 'antd';
 import 'antd/dist/antd.css';
 
 // App component - represents the whole app
-class DataTable extends React.Component {
+class Datatable extends React.Component {
 
   constructor(props) {
     super(props);
@@ -42,4 +42,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(DataTable);
+})(Datatable);

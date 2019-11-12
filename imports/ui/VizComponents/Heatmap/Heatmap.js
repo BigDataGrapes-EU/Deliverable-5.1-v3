@@ -5,7 +5,7 @@ import { Card, Icon } from 'antd';
 import { Chart, Axis, Legend, Tooltip, Heatmap, Guide } from 'viser-react';
 
 // App component - represents the whole app
-class Barchart extends React.Component {
+class Heatmap extends React.Component {
 
   constructor(props) {
     super(props);
@@ -49,4 +49,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(Barchart);
+})(Heatmap);

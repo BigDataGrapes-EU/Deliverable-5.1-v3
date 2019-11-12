@@ -4,7 +4,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Progress, Card, Icon } from 'antd';
 
 // App component - represents the whole app
-class ProgressCircle extends React.Component {
+class Progresscircle extends React.Component {
 
   constructor(props) {
     super(props);
@@ -43,4 +43,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(ProgressCircle);
+})(Progresscircle);

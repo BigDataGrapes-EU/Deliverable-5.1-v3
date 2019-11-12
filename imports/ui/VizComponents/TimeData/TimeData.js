@@ -4,7 +4,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Card, Icon } from 'antd';
 import { Bar  } from 'react-chartjs-2';
 // App component - represents the whole app
-class TimeData extends React.Component {
+class Timedata extends React.Component {
 
   constructor(props) {
     super(props);
@@ -63,4 +63,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(TimeData);
+})(Timedata);
