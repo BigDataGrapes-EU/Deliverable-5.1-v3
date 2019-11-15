@@ -1,13 +1,10 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
-import { Card, Icon, Table, Button } from 'antd';
-import 'antd/dist/antd.css';
 
-const ButtonGroup = Button.Group;
-const Fragment = React.Fragment;
-
+import { Card, Icon } from 'antd';
+import { Bar  } from 'react-chartjs-2';
 // App component - represents the whole app
-class Datatable extends React.Component {
+class Linechart extends React.Component {
 
   constructor(props) {
     super(props);
@@ -17,19 +14,7 @@ class Datatable extends React.Component {
     };
   }
 
-  extraTools() {
-    return <ButtonGroup>
-      <Button type="dashed" size="small" onClick={(e) => this.changeComponentSize()} icon={this.state.icon} />
-      <Button type="dashed" size="small" onClick={(e) => this.toggleEdit() } icon="edit"  />
-      <Button type="danger" size="small" icon="close" />
-    </ButtonGroup>;
-  }
-
-  toggleEdit() {
-    console.log("to:do");
-  }
-
-  changeComponentSize() {
+  changeCardSize() {
     if(this.state.size == "small" ) {
       this.setState({ size: "large", icon: "fullscreen-exit"});
     } else {
@@ -39,13 +24,34 @@ class Datatable extends React.Component {
   }
 
   render() {
+    const data = {
+      labels: [
+        'Red',
+        'Blue',
+        'Yellow'
+      ],
+      datasets: [{
+        data: [300, 50, 100],
+        backgroundColor: [
+          '#FF6384',
+          '#36A2EB',
+          '#FFCE56'
+        ],
+        hoverBackgroundColor: [
+          '#FF6384',
+          '#36A2EB',
+          '#FFCE56'
+        ]
+      }]
+    };
+    const options = { scales: { yAxes: [{ ticks: { beginAtZero: true } }] } }
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
     return(
       <div className="vis-card-container" style={style}>
         <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>
         <div className="vis-card-content">
-          <Table className="data-table" size="small" rowKey="_id" dataSource={this.props.data} columns={this.props.columns}  pagination={{ pageSize: 100 }} scroll={{ x: true, y: 200 }} />
+        <Bar data={data} options = {options} />
       </div>
       </div>
     );
@@ -57,4 +63,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(Datatable);
+})(Linechart);

@@ -6,19 +6,19 @@ import _ from 'lodash'
 const Fragment = React.Fragment;
 import Barchart           from './VizComponents/Barchart/Barchart.js';
 import Histogram          from './VizComponents/Histogram/Histogram.js';
-import Radarchart         from './VizComponents/Radarchart/radarchart.js';
-import Scatterplot        from './VizComponents/Scatterplot/scatterplot.js';
+import Radarchart         from './VizComponents/Radarchart/Radarchart.js';
+import Scatterplot        from './VizComponents/Scatterplot/Scatterplot.js';
 import Piechart           from './VizComponents/Piechart/Piechart.js';
 import AreaChart          from './VizComponents/Areachart/Areachart.js';
 import Timeseries         from './VizComponents/Timeseries/Timeseries.js';
-import DataTable          from './VizComponents/DataTable/DataTable.js';
+import DataTable          from './VizComponents/Datatable/Datatable.js';
 import Linechart          from './VizComponents/Linechart/Linechart.js'
 import Heatmap            from './VizComponents/Heatmap/Heatmap.js'
-import TimeData           from './VizComponents/TimeData/TimeData.js'
-import ProgressCircle     from './VizComponents/ProgressCircle/ProgressCircle.js'
-import ParallelCoordinate from './VizComponents/ParallelCoordinate/ParallelCoordinate.js';
+import TimeData           from './VizComponents/Timedata/Timedata.js'
+import ProgressCircle     from './VizComponents/Progresscircle/Progresscircle.js'
+import ParallelCoordinate from './VizComponents/Pcoordinates/Pcoordinates.js';
 
-import VegaLiteDemo from './VizComponents/VegaLiteDemo/VegaLiteDemo.js'
+import VegaLiteDemo from './VizComponents/Vegalitedemo/Vegalitedemo.js'
 
 /****** ------------------ ******/
 import DataDrop    from './DataDrop/DataDrop.js'

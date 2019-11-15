@@ -107,4 +107,4 @@ export default withTracker((props) => {
   return {
 
   };
-})(VegaLiteDemo);
+})(Vegalitedemo);
