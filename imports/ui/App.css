@@ -71,7 +71,9 @@ body {
   min-width: 0px;
   max-width: 100%;
   justify-content: space-between;
-  grid-template-columns: 240px 1fr 240px;
+  /* grid-template-columns: 240px 1fr 240px; */
+  grid-template-columns: 240px 1fr;
+
 }
 
 .main-content {

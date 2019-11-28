@@ -1,8 +1,19 @@
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
-import { Card, Icon } from 'antd';
-import {Scatter} from 'react-chartjs-2';
+import _ from 'lodash'
+import { Button, Icon, Empty, Select, Checkbox } from 'antd';
+import { Scatter  } from 'react-chartjs-2';
+import { TwitterPicker } from 'react-color';
+
+import { Resizable, ResizableBox } from 'react-resizable';
+import 'react-resizable/css/styles.css';
+import 'antd/dist/antd.css';
+
+const ButtonGroup = Button.Group;
+const Fragment = React.Fragment;
+const { Option } = Select;
+
 // App component - represents the whole app
 class Scatterplot extends React.Component {
 
@@ -10,49 +21,206 @@ class Scatterplot extends React.Component {
     super(props);
     this.state = {
       size: "small",
-      icon: "fullscreen"
+      icon: "fullscreen",
+      editMode: true,
+      selectedData: "",
+      colorPickerButton: "#52A1E5",
+      colorPickerButtonAgg: "#52A1E5",
+      data: {},
+      extraColumnFields: [],
+      displayColorPicker: false,
+      displayColorPickerAgg: false,
+      options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] }, legend: { display: false }, tooltips: { callbacks: { label: function(tooltipItem) { return tooltipItem.yLabel; } } } },
     };
   }
 
-  changeCardSize() {
-    if(this.state.size == "small" ) {
-      this.setState({ size: "large", icon: "fullscreen-exit"});
-    } else {
-      this.setState({ size: "small", icon: "fullscreen"});
-    }
-    // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
+  isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+  }
+
+  changeComponentSize() { if(this.state.size == "small" ) { this.setState({ size: "large", icon: "fullscreen-exit"}); } else { this.setState({ size: "small", icon: "fullscreen"});}}
+
+  dataChange(e) { console.log(e); this.setState({selectedData: e}); }
+
+  handleChange() {}
+  toggleEdit(){ this.setState({editMode: !this.state.editMode}); }
+
+  columnSelection() {
+    const children = [];
+    _.forEach(this.props.columns, function(e){
+      children.push(<Option key={e.title}>{e.title}</Option>);
+    });
+    return children;
+  }
+
+  removeComponent(e) {
+    this.props.removeComponent(this.props.id);
+  }
+
+  extraTools() {
+    return <ButtonGroup>
+      <Button type="dashed" size="small" onClick={(e) => this.changeComponentSize()} icon={this.state.icon} />
+      <Button type="dashed" size="small" onClick={(e) => this.toggleEdit() } icon="edit"  />
+      <Button type="danger" size="small" onClick={(e) => this.removeComponent(e) } icon="close" />
+    </ButtonGroup>;
+  }
+
+  showGraph() {
+    let graphData = this.props.data;
+    let selectedData = this.state.selectedData;
+    let group   = _.uniqBy(graphData, selectedData);
+    let labels  = _.map(group, selectedData);
+    let dataset = []; //_.meanBy(this.props.data, "YEAR");
+    _.forEach(labels, function(label){
+      let obj = _.countBy(graphData, function (rec) { return rec[selectedData] == label;});
+      dataset.push(obj.true);
+    });
+  //  const data = {labels: ['Fruity', 'Acid', 'Candy', 'Fat'], datasets: [{label: '', backgroundColor: 'rgba(179,181,198,0.2)', data: [300, 50, 100, 250], backgroundColor: ['#FF6384','#36A2EB','#FFCE56'], hoverBackgroundColor: ['#FF6384','#36A2EB','#FFCE56']}]};
+
+  const data = {
+    labels: ['Scatter'],
+    datasets: [
+      {
+        label: 'My First dataset',
+        fill: false,
+        backgroundColor: 'rgba(75,192,192,0.4)',
+        pointBorderColor: '#52A1E5',
+        pointBackgroundColor: '#52A1E5',
+        pointBorderWidth: 1,
+        pointHoverRadius: 3,
+        pointHoverBackgroundColor: '#52A1E5',
+        pointHoverBorderColor: '#52A1E5',
+        pointHoverBorderWidth: 2,
+        pointRadius: 2,
+        pointHitRadius: 10,
+        data: [
+          { x: 65, y: 75 },
+          { x: 59, y: 49 },
+          { x: 80, y: 90 },
+          { x: 81, y: 29 },
+          { x: 56, y: 36 },
+          { x: 55, y: 25 },
+          { x: 40, y: 11 },
+          { x: 65, y: 70 },
+          { x: 59, y: 44 },
+          { x: 30, y: 91 },
+          { x: 20, y: 59 },
+          { x: 10, y: 46 },
+          { x: 52, y: 23 },
+          { x: 41, y: 11 },
+          { x: 32, y: 72 },
+          { x: 54, y: 43 },
+          { x: 83, y: 94 },
+          { x: 80, y: 39 },
+          { x: 52, y: 26 },
+          { x: 51, y: 15 },
+          { x: 10, y: 12 },
+        ]
+      }
+    ]
+  };
+    //const data = {labels: labels, datasets: [{backgroundColor: this.state.colorPickerButtonAgg , data: dataset, }]}
+    if(!this.state.editMode) return <Scatter data={data}/>
+  }
+
+
+  operationSelection() {
+    const options = ["mean", "sum", "median", "min","max"];
+    const list = [];
+    _.forEach(options, function(e){
+      list.push(<Option value={e} key={e}>{e}</Option>);
+    });
+    return list;
+  }
+
+  handleColorClick() {
+    this.setState({ displayColorPicker: !this.state.displayColorPicker });
+  }
+
+  handleColorClose = () => {
+    this.setState({ displayColorPicker: false })
+  };
+
+  handleColorClickAgg() {
+    this.setState({ displayColorPickerAgg: !this.state.displayColorPickerAgg });
+  }
+
+  handleColorCloseAgg = () => {
+    this.setState({ displayColorPickerAgg: false })
+  };
+
+  handleColorChangeComplete = (color, event) => {
+    this.setState({ colorPickerButton: color.hex });
+    this.setState({ displayColorPicker: false });
+  };
+
+  handleColorChangeCompleteAgg = (color, event) => {
+    this.setState({ colorPickerButtonAgg: color.hex });
+    this.setState({ displayColorPickerAgg: false });
+  };
+
+  onAggregateBoxChange(e) {
+    console.log(`checked = ${e.target.checked}`);
+  }
+
+  addField() {
+    let old = this.state.extraColumnFields;
+    let array = _.concat(old, <Checkbox key={"chb"+old.length} className="vis-card-checkbox" onChange={this.onAggregateBoxChange}>
+    <Select onChange={(e) => {this.dataChange(e)}} style={{minWidth: "80px"}}>{this.columnSelection()}</Select>
+    <Select className="vg-select-function-btn" defaultValue="mean" onChange={this.handleChange}>{this.operationSelection()}</Select>
+    <Button shape="circle" className="vg-color-picker-btn" icon="bg-colors" style={{background: this.state.colorPickerButton}} onClick={(e) => this.handleColorClick(e) }/>
+    { this.state.displayColorPicker ? <div className="color-picker-popover" style={ popover }>
+    <div style={ cover } onClick={(e) => this.handleColorClose() } />
+    <TwitterPicker triangle="hide" onChangeComplete={ this.handleColorChangeComplete } />
+    </div> : null }
+    <Button type="dashed" shape="circle"><Icon type="close" /></Button>
+    </Checkbox>);
+    this.setState({extraColumnFields: array});
   }
 
   render() {
+    const popover = { position: 'absolute', zIndex: '2', top: '40px', left: '160px'}
+    const cover   = { position: 'fixed', top: '0px', right: '0px', bottom: '0px', left: '0px',}
+
     let style = { gridColumn: "span 1", gridRow: "span 1" };
     if(this.state.size == "small") { style = { gridColumn: "span 1", gridRow: "span 1" }; } else { style = { gridColumn: "span 2", gridRow: "span 2" }; }
+    let selectedData = this.state.selectedData;
+    let showGraph, showEdit;
+    if(this.state.editMode) { showEdit = {display: "grid"}; showGraph = {display: "none"}; } else {showEdit = {display: "none"}; showGraph = {display: "grid"}; }
+    console.log(this.state.extraColumnFields);
     return(
       <div className="vis-card-container" style={style}>
         <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>
         <div className="vis-card-content">
-        <Scatter data={this.props.data} width={100} height={50} options={{ maintainAspectRatio: true,
-          scales: {
-            xAxes: [{
-              scaleLabel:{
-                display: true,
-                labelString: "Penman evapotranspiration (mm)"
-              }
-              // stacked: true
-            }],
-            yAxes: [{
-              scaleLabel:{
-                display: true,
-                labelString: "Mean temperature ('C)"
-              }
-              // stacked: true
-            }]
-          }
-        }} />
-    </div>
-  </div>
-    );
 
-  } // end of render
+          <div className="vis-card-tab-content" style={showEdit}>
+
+            <div className="vis-card-data-title">Edit</div>
+
+            <div className="vis-card-data-columns">
+              <div className="vis-card-tab-title">Data from columns:</div>
+              <div className="vis-card-tab-inputs">
+                {this.state.extraColumnFields}
+                <Checkbox className="vis-card-checkbox" onChange={this.onAggregateBoxChange}>
+                  <Select onChange={(e) => {this.dataChange(e)}} style={{minWidth: "80px"}}>{this.columnSelection()}</Select>
+                  <Select className="vg-select-function-btn" defaultValue="mean" onChange={this.handleChange}>{this.operationSelection()}</Select>
+                  <Button shape="circle" className="vg-color-picker-btn"  icon="bg-colors" style={{background: this.state.colorPickerButton}} onClick={(e) => this.handleColorClick(e) }/>
+                  { this.state.displayColorPicker ? <div className="color-picker-popover" style={ popover }>
+                  <div style={ cover } onClick={(e) => this.handleColorClose() } />
+                  <TwitterPicker triangle="hide" onChangeComplete={ this.handleColorChangeComplete } />
+                </div> : null }
+                <Button type="dashed" onClick={(e) => this.addField()}><Icon type="plus" /></Button>
+              </Checkbox>
+            </div>
+          </div>
+          <Button type="dashed" onClick={(e) => this.toggleEdit()}>View Graph</Button>
+        </div>
+        <div className="vis-card-chart" style={showGraph}>{this.showGraph()}</div>
+      </div>
+    </div>
+  );
+
+} // end of render
 } // end of class
 
 export default withTracker((props) => {

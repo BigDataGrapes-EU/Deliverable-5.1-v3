@@ -56,13 +56,12 @@
   padding: 16px;
   display: grid;
   grid-template-rows: 32px auto;
+  grid-template-columns: 100%;
+  grid-row-gap: 16px;
 }
 
 .vis-card-container .vis-card-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 32px;
+  display: grid;
 }
 
 .vis-card-container .vis-card-header {
@@ -94,9 +93,10 @@
 }
 
 .vis-card-tab-title {
-  font-size: 12px;
-  margin-bottom: 4px;
+  font-size: 14px;
   width: 100%;
+  font-weight: 500;
+  color: #848484;
 }
 
 .vis-card-tab-content {
@@ -110,11 +110,70 @@
 
 .vis-card-tab-inputs {
   display: grid;
-  position: relative;
-  grid-auto-flow: column;
-  grid-column-gap: 8px;
+  justify-content: flex-start;
+  align-items: end;
+  grid-row-gap: 4px;
 }
 
 .color-picker-popover {
   top: 44px;
+}
+
+.vis-card-content .data-table {
+  width: 100%;
+}
+
+.vis-card-data-title {
+  border-bottom: 1px solid #e8e8e8;
+  color: #424242;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.vis-card-tab-content {
+  align-items: flex-start;
+  grid-row-gap: 8px;
+  grid-auto-rows: min-content;
+}
+
+.vis-card-data-columns {
+  display: grid;
+  grid-row-gap: 8px;
+}
+
+.vis-card-data-aggregate {
+  display: grid;
+  grid-row-gap: 8px;
+}
+
+.vis-card-column-input {
+  position: relative;
+}
+
+.vis-card-checkbox {
+  display: grid;
+  position: relative;
+}
+
+/* .vis-card-checkbox span {
+display: grid;
+position: relative;
+} */
+
+.vis-card-tab-inputs .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+
+.vis-card-inputs {
+  height: 140px;
+  overflow-y: scroll;
+}
+
+.vg-color-picker-btn {
+  margin-left: 4px;
+  margin-right:4px;
+}
+
+.vg-select-function-btn {
+  margin-left: 4px !important;
 }

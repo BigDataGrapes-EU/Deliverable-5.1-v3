@@ -39,6 +39,12 @@ class App extends Component {
     };
   }
 
+  removeComponent(key) {
+    let array = this.state.visComponents;
+    let items = _.remove(array, function(item){ return item.key === key });
+    this.setState({visComponents: items});
+  }
+
   addComponent = (name) => {
 
     /** Temp logic **/
@@ -53,9 +59,9 @@ class App extends Component {
 
     let list = this.state.visComponents;
     switch (name) {
-      case "area":       list.push(<AreaChart title="Area Chart"  data = {this.props.Dataset} columns = {columns} />); break;
-      case "pie":        list.push(<Piechart  title="Pie Chart"  data = {this.props.Dataset} columns = {columns} />); break;
-      case "bar":        list.push(<Barchart  title="Bar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "area":       list.push(<AreaChart   title="Area Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "pie":        list.push(<Piechart    title="Pie Chart"  data = {this.props.Dataset} columns = {columns} />); break;
+      case "bar":        list.push(<Barchart    id={"vc"+list.length} key={"vc"+list.length} removeComponent={this.removeComponent.bind(this) } title="Bar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "scatter":    list.push(<Scatterplot title="Scatterplot"  data = {this.props.Dataset} columns = {columns} />); break;
       case "line":       list.push(<Linechart   title="Line Chart"  data = {this.props.Dataset} columns = {columns} />); break;
       case "radar":      list.push(<Radarchart  title="Radar Chart"  data = {this.props.Dataset} columns = {columns} />); break;
@@ -63,7 +69,7 @@ class App extends Component {
       case "timeseries": list.push(<Timeseries     title="Timeseries"  data = {this.props.Dataset} columns = {columns} />); break;
       case "timedata":   list.push(<TimeData       title="Data overtime"  data = {this.props.Dataset} columns = {columns} />); break;
       case "heatmap":    list.push(<Heatmap        title="Heatmap"  data = {this.props.Dataset} columns = {columns} />); break;
-      case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {this.state.columns} title="Data Explorer" />); break;
+      case "datat":      list.push(<DataTable data = {this.props.Dataset} columns = {columns} title="Data Explorer" />); break;
       case "pcoords":    list.push(<ParallelCoordinate title="Parallel Coordinates" data = {this.props.Dataset} columns = {columns} />); break;
       case "vega":  list.push(<VegaLiteDemo data = {this.props.Dataset} columns = {columns} title="Vega-Lite Demo" />); break;
     }
@@ -76,6 +82,7 @@ class App extends Component {
 
   render() {
     // <div className="options-sider"></div>
+    console.log(this.state.visComponents);
     return(
       <Fragment>
         <div className="data-sider"><DataDrop/><VizChooser selectedComp = {this.addComponent }/></div>
