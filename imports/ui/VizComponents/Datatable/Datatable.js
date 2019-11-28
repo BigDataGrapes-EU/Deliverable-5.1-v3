@@ -44,7 +44,7 @@ class Datatable extends React.Component {
     return(
       <div className="vis-card-container" style={style}>
         <div className="vis-card-header"><h1>{this.props.title}</h1>{this.extraTools()}</div>
-        <div className="vis-card-content">
+        <div className="vis-card-content" style={{display: "block"}}>
           <Table className="data-table" size="small" rowKey="_id" dataSource={this.props.data} columns={this.props.columns}  pagination={{ pageSize: 100 }} scroll={{ x: true, y: 200 }} />
       </div>
       </div>

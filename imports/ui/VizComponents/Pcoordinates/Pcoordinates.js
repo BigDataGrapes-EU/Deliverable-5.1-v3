@@ -2,9 +2,12 @@ import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
 import 'react-vis/dist/style.css';
-
+import { Button, Icon, Empty, Select, Checkbox } from 'antd';
 import { ParallelCoordinates } from 'react-vis';
-import { Card, Icon } from 'antd';
+
+const ButtonGroup = Button.Group;
+const Fragment = React.Fragment;
+const { Option } = Select;
 
 // App component - represents the whole app
 class Pcoordinates extends React.Component {
@@ -24,6 +27,14 @@ class Pcoordinates extends React.Component {
       this.setState({ size: "small", icon: "fullscreen"});
     }
     // if(this.state.size == "medium") style = { gridColumn: "span 2", gridRow: "span 1" };
+  }
+
+  extraTools() {
+    return <ButtonGroup>
+      <Button type="dashed" size="small" onClick={(e) => this.changeComponentSize()} icon={this.state.icon} />
+      <Button type="dashed" size="small" onClick={(e) => this.toggleEdit() } icon="edit"  />
+      <Button type="danger" size="small" onClick={(e) => this.removeComponent(e) } icon="close" />
+    </ButtonGroup>;
   }
 
   render() {
