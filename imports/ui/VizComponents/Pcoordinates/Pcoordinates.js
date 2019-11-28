@@ -96,16 +96,16 @@ class Pcoordinates extends React.Component {
       <ParallelCoordinates
       data={data}
       style={stylep}
-      margin = {10}
-      width  = {200}
-      height = {200}
+      margin = {20}
+      width  = {380}
+      height = {250}
       domains={[
-        {name: 'mileage',     domain: [0, 10] },
-        {name: 'price',       domain: [2, 16], getValue: d => d.price},
-        {name: 'safety',      domain: [5, 10], getValue: d => d.safety},
-        {name: 'performance', domain: [0, 10], getValue: d => d.performance},
-        {name: 'interior',    domain: [0,  7], getValue: d => d.interior},
-        {name: 'warranty',    domain: [10, 2], getValue: d => d.warranty}
+        {name: 'fruity',   domain: [0, 10] },
+        {name: 'acid',     domain: [2, 16], getValue: d => d.price},
+        {name: 'safety',   domain: [5, 10], getValue: d => d.safety},
+        {name: 'astr',     domain: [0, 10], getValue: d => d.performance},
+        {name: 'balanced', domain: [0,  7], getValue: d => d.interior},
+        {name: 'bitter',   domain: [10, 2], getValue: d => d.warranty}
       ]}
       brushing
       animation
