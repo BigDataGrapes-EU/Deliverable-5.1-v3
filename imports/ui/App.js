@@ -4,10 +4,10 @@ import './VizComponents/Components.css';
 import _ from 'lodash'
 /****** ------------------ ******/
 const Fragment = React.Fragment;
-import Barchart           from './VizComponents/Barchart/Barchart.js';
+import Barchart           from './VizComponents/Barchart/Barchart2.js';
 import Histogram          from './VizComponents/Histogram/Histogram.js';
-import Radarchart         from './VizComponents/Radarchart/Radarchart.js';
-import Scatterplot        from './VizComponents/Scatterplot/Scatterplot.js';
+import Radarchart         from './VizComponents/Radarchart/Radarchart2.js';
+import Scatterplot        from './VizComponents/Scatterplot/Scatterplot2.js';
 import Piechart           from './VizComponents/Piechart/Piechart.js';
 import AreaChart          from './VizComponents/Areachart/Areachart.js';
 import Timeseries         from './VizComponents/Timeseries/Timeseries.js';

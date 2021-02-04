@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
 
@@ -27,7 +28,7 @@ class Barchart extends React.Component {
       colorPickerButton: "white",
       data: {},
       displayColorPicker: false,
-      options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] }, legend: { display: false }, tooltips: { callbacks: { label: function(tooltipItem) { return tooltipItem.yLabel; } } } },
+      options: { scales: { yAxes: [{ ticks: { beginAtZero: true } }] }, legend: { display: false }, tooltips: { callbacks: { label: function(tooltipItem) { return tooltipItem.yLabel; } } } },
     };
   }
 
